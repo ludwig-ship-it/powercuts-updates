@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>PowerCut Updates</title>
+        <link>https://ludwig-ship-it.github.io/powercuts-updates/appcast.xml</link>
+        <description>Most recent updates to PowerCut</description>
+        <language>en</language>
+        <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
+    </channel>
+</rss>
