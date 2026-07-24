@@ -6,5 +6,23 @@
         <description>Most recent updates to PowerCut</description>
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
+        <item>
+            <title>PowerCut 0.5.0</title>
+            <pubDate>Thu, 23 Jul 2026 19:30:00 -0400</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>PowerCut 0.5.0</h2>
+                <p>First test build: on-device transcription and rough cuts, paper editing,
+                the Auto Edit Pass, take detection, the review queue, versions, and export
+                to Final Cut Pro, DaVinci Resolve and Premiere Pro plus captions.</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v0.5.0/PowerCut.dmg"
+                sparkle:edSignature="WBsQ3szJyXkikd5kLnoOcYbdcmawf5xVBRSoZn59M62f/tIeXSDm+IVy1Te2CgXoWgiMEmiVSuYZRfTOG7heAw=="
+                length="12193978"
+                type="application/octet-stream"/>
+        </item>
     </channel>
 </rss>
