@@ -7,6 +7,30 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut 0.5.1</title>
+            <pubDate>Fri, 24 Jul 2026 12:00:00 -0400</pubDate>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>0.5.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>PowerCut 0.5.1</h2>
+                <ul>
+                    <li>New transcript click model: click places the caret, double-click selects a word, triple-click selects a paragraph. Delete toggles strike and restore.</li>
+                    <li>Playback speeds now go to 2x, with a compact speed menu next to the timeline play button.</li>
+                    <li>Previous Projects dropdown on the project name pill, listing your five most recent projects.</li>
+                    <li>Granular audio selection: pick the left or right channel of any track for transcription, right from the clip's context menu.</li>
+                    <li>Larger default transcript text with a numeric size indicator.</li>
+                    <li>Hover a clip to remove it, a visible audio track chip, and an optional auto-transcribe on import setting.</li>
+                    <li>Many smaller fixes from tester feedback.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v0.5.1/PowerCut.dmg"
+                sparkle:edSignature="zBQATTImtsF22TUaDSdNVGnQ3GlpAC1ajVSsCZZrBQgvLcxT7TyvXY09qXo52/QtGXwBbyiPplFgF6PKx8AQCA=="
+                length="12259314"
+                type="application/octet-stream"/>
+        </item>
+        <item>
             <title>PowerCut 0.5.0</title>
             <pubDate>Thu, 23 Jul 2026 19:30:00 -0400</pubDate>
             <sparkle:version>5</sparkle:version>
