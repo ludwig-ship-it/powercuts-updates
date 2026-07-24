@@ -20,8 +20,8 @@
             ]]></description>
             <enclosure
                 url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v0.5.0/PowerCut.dmg"
-                sparkle:edSignature="WBsQ3szJyXkikd5kLnoOcYbdcmawf5xVBRSoZn59M62f/tIeXSDm+IVy1Te2CgXoWgiMEmiVSuYZRfTOG7heAw=="
-                length="12193978"
+                sparkle:edSignature="1RM6DkT+fezDaKDZuGSVCLyVF1YZaJQuxD8213shMnVt2R1TQ9MJVY3EXjZZTsvvKVeF1WKoWQz9WFnK8mEZAQ=="
+                length="12217169"
                 type="application/octet-stream"/>
         </item>
     </channel>
