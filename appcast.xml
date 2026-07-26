@@ -7,6 +7,31 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut 0.5.2</title>
+            <pubDate>Sat, 25 Jul 2026 12:00:00 -0400</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>0.5.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>PowerCut 0.5.2</h2>
+                <ul>
+                    <li><b>Final Cut Pro multicam export fixed.</b> The multicam option wrote a file Final Cut rejected without an error, so nothing appeared on import.</li>
+                    <li><b>Cuts land where they should.</b> Edit points are now found in the audio itself rather than from transcript timings, so clips start right before the first word and end after the last one finishes, with no chopped words and no dead air at the head.</li>
+                    <li><b>Breaths and long pauses removed</b> between sentences, with the padding sliders genuinely controlling how the edit breathes.</li>
+                    <li><b>Much stronger repeat and false start detection:</b> re-read lines are matched against your script, restarts buried inside a sentence are caught, and mis-transcribed repeats no longer slip through.</li>
+                    <li><b>Run Auto Edit Pass now re-derives cleanly</b> instead of layering on the previous pass, so improved detection applies to projects you already started.</li>
+                    <li><b>Click a word to play from it.</b> Clicking selects the word and starts playback at that moment.</li>
+                    <li><b>New Project</b> in the File menu, and Previous Projects on the name pill.</li>
+                    <li>Smoother settings sliders with a confirmation before re-planning, a larger selection popup, and panels that stay usable at small window sizes.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v0.5.2/PowerCut.dmg"
+                sparkle:edSignature="/LO/HHC8auYJgkpYUDtdyuyEXPK/satMNHKS1fEF3gc2ePYcCkH6M58a8H2Wb/oS01OahsC7oE3lcIhl+r3IDg=="
+                length="12297266"
+                type="application/octet-stream"/>
+        </item>
+        <item>
             <title>PowerCut 0.5.1</title>
             <pubDate>Fri, 24 Jul 2026 12:00:00 -0400</pubDate>
             <sparkle:version>6</sparkle:version>
