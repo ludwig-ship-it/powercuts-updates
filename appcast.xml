@@ -7,6 +7,26 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut 0.5.3</title>
+            <pubDate>Sat, 25 Jul 2026 18:00:00 -0400</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>0.5.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>PowerCut 0.5.3</h2>
+                <ul>
+                    <li><b>Final Cut Pro imports without warnings.</b> Exports now carry the format names Final Cut expects, so it no longer reports an unexpected value on the timeline or on multicam clips.</li>
+                    <li><b>Better timeline size.</b> The project is built on a standard Final Cut format chosen from the footage the cut is actually made of, rather than inheriting an odd capture size from whichever clip happened to be first. A screen recording in your story no longer sets the resolution for the whole project.</li>
+                    <li>Multicam exports import cleanly, following on from the multicam fix in 0.5.2.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v0.5.3/PowerCut.dmg"
+                sparkle:edSignature="sSeRltWEpt1sCuBtt9AOr3Ib5EyBZV0f7ClgmIxGvrRStQ1yInzN2QSmcTxRgFZrIkEtX4uyVW0c2aLYj9obCQ=="
+                length="12297705"
+                type="application/octet-stream"/>
+        </item>
+        <item>
             <title>PowerCut 0.5.2</title>
             <pubDate>Sat, 25 Jul 2026 12:00:00 -0400</pubDate>
             <sparkle:version>7</sparkle:version>
