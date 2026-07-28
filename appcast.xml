@@ -7,6 +7,28 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut 0.5.4</title>
+            <pubDate>Sun, 27 Jul 2026 21:30:00 +0000</pubDate>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>0.5.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Sony camera timecode is now written into Final Cut and Resolve exports, so DaVinci Resolve links FX3 and other Sony MP4 clips correctly.</li>
+                    <li>Cut padding now applies to every cut, including removed takes and filler words, and the sliders update the edit reliably.</li>
+                    <li>Words at the end of a sentence are no longer clipped when the next take is removed.</li>
+                    <li>Striking and restoring words is much faster, and rapid edits no longer stall playback.</li>
+                    <li>Reset buttons on the Pauses and Cut Padding panels.</li>
+                    <li>Footage Brief highlights clear when you click elsewhere, and the auto pass shows its progress while it runs.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v0.5.4/PowerCut.dmg"
+                sparkle:edSignature="V9brJwOs9qeNvv6FnHaSoEcl3vDY6h1cF5MqcYe2u0ujl9S41Wq2Du1Iosm51mPu3YmSN9bcbfsKTr0Nq4thBQ=="
+                length="12492888"
+                type="application/octet-stream"/>
+        </item>
+        <item>
             <title>PowerCut 0.5.3</title>
             <pubDate>Sat, 25 Jul 2026 18:00:00 -0400</pubDate>
             <sparkle:version>8</sparkle:version>
