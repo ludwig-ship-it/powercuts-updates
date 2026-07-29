@@ -7,6 +7,26 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut 0.5.6</title>
+            <pubDate>Wed, 29 Jul 2026 03:30:00 +0000</pubDate>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>0.5.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>After the free trial, PowerCut now stays fully usable: editing, transcription and the auto pass all keep working, and only export needs a license. The trial-end screen no longer locks the whole app.</li>
+                    <li>Enter License sits right beside Unlock, so a purchased key is never a hunt.</li>
+                    <li>Add Footage moved to the top of the sidebar, under the project name.</li>
+                    <li>Named projects export to Final Cut Pro with the event and timeline under exactly that name.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v0.5.6/PowerCut.dmg"
+                sparkle:edSignature="QoPyJVTwOflOP328WQVSNpA5PIRuUi2zZvgQlF7p9bd4402zKmomvVAaS6TzuWW+w4RHl4voOfwnuRPgFBNcCw=="
+                length="12494877"
+                type="application/octet-stream"/>
+        </item>
+        <item>
             <title>PowerCut 0.5.5</title>
             <pubDate>Tue, 28 Jul 2026 22:00:00 +0000</pubDate>
             <sparkle:version>10</sparkle:version>
