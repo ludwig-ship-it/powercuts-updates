@@ -7,6 +7,26 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut 0.5.5</title>
+            <pubDate>Tue, 28 Jul 2026 22:00:00 +0000</pubDate>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>0.5.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Final Cut Pro import fixed for Sony camera footage: multicam exports no longer trigger "Invalid edit with no respective media." Resolve exports keep their timecode-based form.</li>
+                    <li>Timeline trimming is now frame-accurate, like trimming in Final Cut Pro: the edge stays exactly where you release it instead of snapping back.</li>
+                    <li>Transcript words strike or restore only when the trim covers or reveals the whole word - shaving frames off a word edits the audio without changing the text.</li>
+                    <li>Dragging a trim out and back in now behaves chronologically: the latest drag always wins.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v0.5.5/PowerCut.dmg"
+                sparkle:edSignature="yqX8ZuM4PHLDR5IW/O9EpFs+AqYvrsKf27VClDHBh/KOsVS0bz12+WOdXcEV+qIEWXgXyzRt6/ZSiShi8yXrAg=="
+                length="12494521"
+                type="application/octet-stream"/>
+        </item>
+        <item>
             <title>PowerCut 0.5.4</title>
             <pubDate>Sun, 27 Jul 2026 21:30:00 +0000</pubDate>
             <sparkle:version>9</sparkle:version>
