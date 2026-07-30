@@ -7,6 +7,24 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut 0.5.7</title>
+            <pubDate>Wed, 29 Jul 2026 05:30:00 +0000</pubDate>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>0.5.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Clips in the sidebar can be dragged to reorder again: the card lifts, the others move apart as you go, and one Undo covers the whole move.</li>
+                    <li>The clip count now reads "2 of 5 on" when some clips are switched off.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v0.5.7/PowerCut.dmg"
+                sparkle:edSignature="RDqsJAbdhx/YtsBs0q2ZMUC3ofEJAebNBqgYk4g1xdB5odPUdGNxhJwNhUp09+iEXB7u1LGDM28YkdYWODWYDA=="
+                length="12524325"
+                type="application/octet-stream"/>
+        </item>
+        <item>
             <title>PowerCut 0.5.6</title>
             <pubDate>Wed, 29 Jul 2026 03:30:00 +0000</pubDate>
             <sparkle:version>11</sparkle:version>
