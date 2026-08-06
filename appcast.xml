@@ -7,6 +7,24 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut 0.5.8</title>
+            <pubDate>Thu, 06 Aug 2026 22:30:00 +0000</pubDate>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>0.5.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Camera timecode handled per camera and per NLE: DJI (and any camera writing a real timecode track) lines up at source timecode in Final Cut, Resolve and Premiere.</li>
+                    <li>Sony footage exports import cleanly into Final Cut Pro again (no more "invalid edit" warnings), while Resolve keeps the timecode form it needs to link Sony files.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v0.5.8/PowerCut.dmg"
+                sparkle:edSignature="U6/pjWbj4xCbIlS6PwAMpmAEVFHSpJKZ4+SEehIARNt74rcLaCuaqUYX0AHEl8JZ1DOhZcAG4k2nyxM7faDeDw=="
+                length="12525260"
+                type="application/octet-stream"/>
+        </item>
+        <item>
             <title>PowerCut 0.5.7</title>
             <pubDate>Wed, 29 Jul 2026 05:30:00 +0000</pubDate>
             <sparkle:version>12</sparkle:version>
