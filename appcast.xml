@@ -7,6 +7,24 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut 0.5.9</title>
+            <pubDate>Thu, 06 Aug 2026 23:59:00 +0000</pubDate>
+            <sparkle:version>14</sparkle:version>
+            <sparkle:shortVersionString>0.5.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Recent Projects in the File menu: your last ten projects, one click to reopen. The current edit always autosaves before switching.</li>
+                    <li>Projects without a name now autosave as Untitled_01, Untitled_02 and so on, and follow along when you give them a real name. No more hunting for an edit you forgot to name.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v0.5.9/PowerCut.dmg"
+                sparkle:edSignature="v3fTADuOdrN+2nNEKej1dMTX84H/wVZ0688uq+2OcaDRhteaIK9MQLu782gD/AYY9vfHO9p6/uLqg4WSwiaMBQ=="
+                length="12513328"
+                type="application/octet-stream"/>
+        </item>
+        <item>
             <title>PowerCut 0.5.8</title>
             <pubDate>Thu, 06 Aug 2026 22:30:00 +0000</pubDate>
             <sparkle:version>13</sparkle:version>
