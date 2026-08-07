@@ -7,6 +7,25 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut 0.6.0</title>
+            <pubDate>Fri, 07 Aug 2026 22:30:00 +0000</pubDate>
+            <sparkle:version>16</sparkle:version>
+            <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>MXF import. Sony, Canon and Panasonic broadcast files drop straight into PowerCut: transcribe, edit and export like any other clip. Camera timecode and every audio track come along.</li>
+                    <li>Exports still reference your original MXF files, untouched, so Final Cut, Resolve and Premiere relink to the camera originals.</li>
+                    <li>Powered by a bundled FFmpeg helper (LGPL) that repackages MXF losslessly where macOS allows, with a fast preview fallback where it doesn't. Audio is always untouched.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v0.6.0/PowerCut.dmg"
+                sparkle:edSignature="KBlE5+q1bZQKnqVrKbpIF4Ic3bOYm1VK7+iD/ZURu5OlgbkW9rda1cjSa9Z9kbf6sCOgKpZARAWSGHoaW3KoBA=="
+                length="14411502"
+                type="application/octet-stream"/>
+        </item>
+        <item>
             <title>PowerCut 0.5.10</title>
             <pubDate>Thu, 07 Aug 2026 14:30:00 +0000</pubDate>
             <sparkle:version>15</sparkle:version>
