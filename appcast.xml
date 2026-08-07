@@ -7,6 +7,23 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut 0.5.10</title>
+            <pubDate>Thu, 07 Aug 2026 14:30:00 +0000</pubDate>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>0.5.10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Fixes a crash at launch when the last project's footage can't be found (for example, an unplugged external drive). PowerCut now opens normally and lists the missing files instead.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v0.5.10/PowerCut.dmg"
+                sparkle:edSignature="0ZZaAcHx1MMWFI+8sUD3A24I5mfRJkFCYbKO7VTqN0mPV1zSmAJrIv0IS3U9laehe5X4ELhyUga9llO7OafvBQ=="
+                length="12514426"
+                type="application/octet-stream"/>
+        </item>
+        <item>
             <title>PowerCut 0.5.9</title>
             <pubDate>Thu, 06 Aug 2026 23:59:00 +0000</pubDate>
             <sparkle:version>14</sparkle:version>
