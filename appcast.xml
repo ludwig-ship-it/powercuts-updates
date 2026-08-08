@@ -7,6 +7,25 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut 0.6.1</title>
+            <pubDate>Sat, 08 Aug 2026 20:30:00 +0000</pubDate>
+            <sparkle:version>17</sparkle:version>
+            <sparkle:shortVersionString>0.6.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Missing footage is now handled the way an editor would want. If a drive is unplugged or a file moves, the clip stays in your project marked in red, with the transcript and every edit intact. Playback holds its place, and you keep editing from the saved data.</li>
+                    <li>Exports still include offline clips, referencing the original files, so Final Cut, Resolve and Premiere show them as offline media and relink the moment the files are back.</li>
+                    <li>Plug the drive back in and everything heals automatically. Files that moved: right-click the clip and choose Locate Missing File.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v0.6.1/PowerCut.dmg"
+                sparkle:edSignature="4ZueJKYJrxfVaBEUsZ9nJ7Qi0yaSZuGExCBflrAMjMBAahPrYou0hC71xmFKWzKxmHTASYaR8m4IEqrptfiFAg=="
+                length="14424770"
+                type="application/octet-stream"/>
+        </item>
+        <item>
             <title>PowerCut 0.6.0</title>
             <pubDate>Fri, 07 Aug 2026 22:30:00 +0000</pubDate>
             <sparkle:version>16</sparkle:version>
