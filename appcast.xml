@@ -7,6 +7,26 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut 0.6.2</title>
+            <pubDate>Sat, 09 Aug 2026 21:30:00 +0000</pubDate>
+            <sparkle:version>18</sparkle:version>
+            <sparkle:shortVersionString>0.6.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Find in transcript (⌘F): search every clip for words or phrases, close matches included, with a results list showing timecode, clip and match percentage. Matches highlight in the transcript.</li>
+                    <li>Corrections at scale: fix a mis-heard word everywhere in the project in one step, and optionally remember it for every future transcript. Every automatic correction now shows a teal underline with what was heard, and right-click reverts it.</li>
+                    <li>Keyboard fixes: typing in any text field never triggers shortcuts, S now strikes or restores in one key, and word corrections have a Cancel button.</li>
+                    <li>Window resizing is smooth, and PowerCut wears its new icon.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v0.6.2/PowerCut.dmg"
+                sparkle:edSignature="XnCcM6HOL4R6SDlZhrSx71n2tNtD35d67+HgGGl5fdtBrw9ssEBVrLZz05LRTDR/5s3aDV+lMCyu4ZiE9A2mBw=="
+                length="13604692"
+                type="application/octet-stream"/>
+        </item>
+        <item>
             <title>PowerCut 0.6.1</title>
             <pubDate>Sat, 08 Aug 2026 20:30:00 +0000</pubDate>
             <sparkle:version>17</sparkle:version>
