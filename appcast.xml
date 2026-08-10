@@ -7,6 +7,27 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut 0.7.0</title>
+            <pubDate>Sun, 10 Aug 2026 23:15:00 +0000</pubDate>
+            <sparkle:version>19</sparkle:version>
+            <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Six languages: transcribe projects in English, Spanish, French, German, Italian or Portuguese. Pick the main language on the start page, or set a language per clip from the sidebar. Models download once, on first use.</li>
+                    <li>Transcript scrolling is dramatically smoother on long projects.</li>
+                    <li>Exports are frame-exact: adjacent cuts tile precisely, with no one-frame drift.</li>
+                    <li>Multi-track audio extraction streams to disk, so very long recordings no longer spike memory.</li>
+                    <li>Switching a clip's audio track or language mid-analysis can no longer mix results from the old run.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v0.7.0/PowerCut.dmg"
+                sparkle:edSignature="k2he81Iot1wJVkkocPSJWAVz8JWeQMa5B5bVsRMlyzhlOO4Xf1NmhLg1GfJZjA81yU/JiDaOv53Oeb2L4/VEAg=="
+                length="13634318"
+                type="application/octet-stream"/>
+        </item>
+        <item>
             <title>PowerCut 0.6.2</title>
             <pubDate>Sat, 09 Aug 2026 21:30:00 +0000</pubDate>
             <sparkle:version>18</sparkle:version>
