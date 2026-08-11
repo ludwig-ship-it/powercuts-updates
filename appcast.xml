@@ -7,6 +7,26 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut 0.7.1</title>
+            <pubDate>Tue, 11 Aug 2026 17:45:00 +0000</pubDate>
+            <sparkle:version>20</sparkle:version>
+            <sparkle:shortVersionString>0.7.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Five more languages, in beta: Japanese with the full pipeline (filler and stutter detection included), plus Korean, Chinese (Simplified and Traditional) and Cantonese with transcription, pause cuts and the whole paper edit. Pick per project or per clip; each clip card now has a language dropdown.</li>
+                    <li>Hide Cuts (formerly Struck) now gives a truly clean read: struck text collapses behind faint marks, fully struck passages fold into a single line, and the timeline switches to the edited view. The timeline's own Hide Cuts toggle stays independent.</li>
+                    <li>Stray single-word edits between cuts (a marooned "So" making a half-second clip) are struck automatically. Restorable like every automatic strike, and it learns from your restores.</li>
+                    <li>Tooltips across the whole interface, and a crash fix when hiding struck text.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v0.7.1/PowerCut.dmg"
+                sparkle:edSignature="tdw2Gfmq2SbP5fvaj/qwjW0/fp8BU+cMlS3LWbvn2BuqUw1GWTK7HwT2HfMpCdww6Xda/+C288ai+nncP7BbDQ=="
+                length="13644814"
+                type="application/octet-stream"/>
+        </item>
+        <item>
             <title>PowerCut 0.7.0</title>
             <pubDate>Sun, 10 Aug 2026 23:15:00 +0000</pubDate>
             <sparkle:version>19</sparkle:version>
