@@ -7,6 +7,24 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut 0.7.2</title>
+            <pubDate>Wed, 12 Aug 2026 21:30:00 +0000</pubDate>
+            <sparkle:version>21</sparkle:version>
+            <sparkle:shortVersionString>0.7.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Try styles without losing work: switching Video Style saves your current edit to Versions first and asks what you want, re-tune the timing only, or also re-run the Auto Edit Pass for the new feel. Come back to a style you edited under before and PowerCut offers that edit back, exactly as you left it.</li>
+                    <li>Every video style now explains itself: a caption under the picker describes what the selected style does to pacing and pauses.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v0.7.2/PowerCut.dmg"
+                sparkle:edSignature="DdiBF/3l+Oqmgx/fiwcB1Q39sywdOvXtbPRNMlvkiurAroV99qRiHIae87k+pgtjfnFxm58uweJZoAfBgBSpCQ=="
+                length="13649977"
+                type="application/octet-stream"/>
+        </item>
+        <item>
             <title>PowerCut 0.7.1</title>
             <pubDate>Tue, 11 Aug 2026 17:45:00 +0000</pubDate>
             <sparkle:version>20</sparkle:version>
