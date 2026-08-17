@@ -7,6 +7,25 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut 0.7.3</title>
+            <pubDate>Sun, 16 Aug 2026 23:50:00 +0000</pubDate>
+            <sparkle:version>22</sparkle:version>
+            <sparkle:shortVersionString>0.7.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Two more languages, in beta: Hindi and Hinglish, carried by a new on-device Whisper engine. Thirteen languages total. The Whisper model downloads once on first use (about 1.5 GB) and everything stays on your Mac.</li>
+                    <li>Fixed a freeze when importing very large batches of clips at once. Drop in 44 clips; they now flow through in seconds instead of hanging the app.</li>
+                    <li>Devanagari sentence marks (danda) are understood by the pacing engine.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v0.7.3/PowerCut.dmg"
+                sparkle:edSignature="vcRlvEFhJ3D2hd8ZafKNzZ+pgF8YAq8ubVyXxJbKLCzvQbk5gMbqxdJVrxb+zZFCY8FZY5u4wATCj5ZHo+4UAA=="
+                length="14737481"
+                type="application/octet-stream"/>
+        </item>
+        <item>
             <title>PowerCut 0.7.2</title>
             <pubDate>Wed, 12 Aug 2026 21:30:00 +0000</pubDate>
             <sparkle:version>21</sparkle:version>
