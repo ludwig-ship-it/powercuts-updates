@@ -7,6 +7,28 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut 0.7.4</title>
+            <pubDate>Sun, 17 Aug 2026 21:30:00 +0000</pubDate>
+            <sparkle:version>23</sparkle:version>
+            <sparkle:shortVersionString>0.7.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>New Document view: your transcript as a clean paper page. Serif type, margin timestamps, clip headings, whole-document zoom. Read-only preview by default with click-to-play on every word; press Edit Document for full editing: strike, restore, correct, and move material right on the page.</li>
+                    <li>A follow-along cursor tracks the playhead word by word while the video plays, and the page scrolls with it. Clicking a clip in the footage column jumps the document to that section.</li>
+                    <li>See the cut your way: Strike Thru Cuts shows the full transcript with cut material struck through, plain text with it off, or Hide Cuts for a clean read. With the full transcript showing, playback switches to full footage so every line plays, cut or kept.</li>
+                    <li>Word document export in three flavors: the full uncut record, the edited transcript with real strikethrough, or only what made the video edit. Also in the File menu with XML and caption export.</li>
+                    <li>Footage column: select several clips with Cmd or Shift click and remove them together; one undo brings them all back.</li>
+                    <li>Faster document scrolling on long projects, button labels that survive smaller windows, a tinted highlight on moved material, and safer Word export that never overwrites a file until the new one is complete.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v0.7.4/PowerCut.dmg"
+                sparkle:edSignature="1Jq6JwZ9SvfFyZVz2iwpoZqayoQ9WvZYRyK6de478KpKOYdrTQkeqjRoHfPxUoaUI8wFvbOV9onw3Del2p3eDw=="
+                length="14851448"
+                type="application/octet-stream"/>
+        </item>
+        <item>
             <title>PowerCut 0.7.3</title>
             <pubDate>Sun, 16 Aug 2026 23:50:00 +0000</pubDate>
             <sparkle:version>22</sparkle:version>
