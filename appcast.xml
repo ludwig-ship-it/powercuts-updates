@@ -7,6 +7,27 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut 0.7.5</title>
+            <pubDate>Sat, 22 Aug 2026 18:30:00 +0000</pubDate>
+            <sparkle:version>24</sparkle:version>
+            <sparkle:shortVersionString>0.7.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Translate to English, in beta: Whisper listens to the spoken language and writes the transcript in English, every word timed to the original footage, so cuts land exactly where things were said. Per clip from any language menu, or the whole project from the Translate button. Pick the language or let Auto Detect handle it.</li>
+                    <li>Your edit survives translation: strikes and cuts stay where they are in the footage, mapped by time onto the English words, or run the Auto Edit Pass fresh. Nothing is touched until the translation actually succeeds, so a failed download or an offline moment loses nothing.</li>
+                    <li>New Transcription Accuracy setting: Standard, or Maximum with OpenAI's full Large-v3 model, noticeably more accurate on Hindi and translation (about a 3 GB one-time download). In Settings, the settings column, and the Translate dialog.</li>
+                    <li>English scripts now guide take picking on translated footage, and Hinglish is available as a translation source.</li>
+                    <li>Sturdier transcription pipeline ordering and more robust undo around in-flight background work.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v0.7.5/PowerCut.dmg"
+                sparkle:edSignature="1H+7/QYa38h3/CHwIB52PbV2FrN2igdlZLrQQow7IJZj4Wh8lj0QPG4R423GcE8Uozyq88xD2gYWMM4ZjG/vAA=="
+                length="14881769"
+                type="application/octet-stream"/>
+        </item>
+        <item>
             <title>PowerCut 0.7.4</title>
             <pubDate>Sun, 17 Aug 2026 21:30:00 +0000</pubDate>
             <sparkle:version>23</sparkle:version>
