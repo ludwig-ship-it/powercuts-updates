@@ -7,6 +7,26 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut 0.7.7</title>
+            <pubDate>Sat, 22 Aug 2026 23:30:00 +0000</pubDate>
+            <sparkle:version>26</sparkle:version>
+            <sparkle:shortVersionString>0.7.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Shared projects find their media: open a .powercuts file and media sitting next to it links up automatically, verified against the clip's stored metadata. Zip the project folder, send it, it opens working.</li>
+                    <li>Relink Media: a new dialog lists every offline clip with its own Locate button (external drives welcome) plus Match a Folder for the batch case. Clips you can't find keep their entire edit and keep working from saved data.</li>
+                    <li>Choose the automatic first pass before it runs: the new-project screen shows the cleanup options (fillers, takes, asides, context judgment) so a plain transcript with pause cuts only is one click away. Choices are remembered for the next project.</li>
+                    <li>Undo reliably wins against relinking still in progress, and an interrupted relink can never save the wrong file into your project.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v0.7.7/PowerCut.dmg"
+                sparkle:edSignature="MqS5RrBE9hV70JdfaUgLlh21ldk+i5Pi5BpX4zGp7mwz5Sz5AlnWOfXQU0tTJHIoxYd827fYDaTnQ1hoCd7zBg=="
+                length="14932592"
+                type="application/octet-stream"/>
+        </item>
+        <item>
             <title>PowerCut 0.7.6</title>
             <pubDate>Sat, 22 Aug 2026 20:30:00 +0000</pubDate>
             <sparkle:version>25</sparkle:version>
