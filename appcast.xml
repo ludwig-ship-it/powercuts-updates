@@ -7,6 +7,26 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut 0.7.6</title>
+            <pubDate>Sat, 22 Aug 2026 20:30:00 +0000</pubDate>
+            <sparkle:version>25</sparkle:version>
+            <sparkle:shortVersionString>0.7.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Auto Detect for mixed-language clips, in beta: Whisper re-detects the spoken language about every 30 seconds and writes each part in its own script. One clip, several languages, one transcript. Find it at the bottom of every language menu.</li>
+                    <li>One export dialog for transcripts and captions: choose the full record, cuts struck through, or the video edit only, then deliver it in the original languages or translated to English. The translation happens at export time; your project and edit are never changed, strikes map onto the English words by time, and results are cached so repeat exports are instant.</li>
+                    <li>English captions for foreign-language edits: the same language choice applies to the .srt export, so a Hindi edit ships with English captions in one step.</li>
+                    <li>The export dialog calls out clips that have no transcript yet instead of leaving them silently missing.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v0.7.6/PowerCut.dmg"
+                sparkle:edSignature="puvhvS+T3GkNOL9bXLDrmu+zeyYRala78hUhgXO0KBXBj066ODmazwM9BG6zJb3LYYFpLMzDFhvTe/AvRXTPBw=="
+                length="14911824"
+                type="application/octet-stream"/>
+        </item>
+        <item>
             <title>PowerCut 0.7.5</title>
             <pubDate>Sat, 22 Aug 2026 18:30:00 +0000</pubDate>
             <sparkle:version>24</sparkle:version>
