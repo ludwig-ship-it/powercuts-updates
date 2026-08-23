@@ -7,6 +7,24 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut 0.7.8</title>
+            <pubDate>Sun, 23 Aug 2026 16:30:00 +0000</pubDate>
+            <sparkle:version>27</sparkle:version>
+            <sparkle:shortVersionString>0.7.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Cleaner cuts around struck material: the pause next to a crossed-out take now belongs to the cut, so the first syllable of rejected takes can no longer sneak into the edit. Padding still applies off the kept words; it just never re-exposes removed audio.</li>
+                    <li>Delete does what you expect: strike a selection, press again on struck material to bring it back, and now a single word at the caret toggles too, exactly like S. Paragraph-start merge is unchanged.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v0.7.8/PowerCut.dmg"
+                sparkle:edSignature="Jk0Knj6ekv9OrMDy11TASOYrRdpTDRKv4I8Yn/k4e7+fNSkFFP7TAJUs/mBDHH+i7MZ16LS/O3VHYaUDRbPyDA=="
+                length="14932811"
+                type="application/octet-stream"/>
+        </item>
+        <item>
             <title>PowerCut 0.7.7</title>
             <pubDate>Sat, 22 Aug 2026 23:30:00 +0000</pubDate>
             <sparkle:version>26</sparkle:version>
