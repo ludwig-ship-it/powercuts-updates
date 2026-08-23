@@ -7,6 +7,24 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut 0.7.9</title>
+            <pubDate>Sun, 23 Aug 2026 22:45:00 +0000</pubDate>
+            <sparkle:version>28</sparkle:version>
+            <sparkle:shortVersionString>0.7.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Every clip card now shows its edit: "Cut 2:58 · saves 1:31" under the cut count, live with every edit, in the same language as the timeline strip. Durations read as a clear T: 00:00:00 timecode, and audio details moved onto the Audio row, now shown for every clip with audio.</li>
+                    <li>The Delete key works everywhere, reliably: strike a selection, press again on struck material to bring it back, exactly like S. In the Document view, Delete acts on the word you last clicked. A keyboard-handling fix stops the key from occasionally bouncing with an error sound.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v0.7.9/PowerCut.dmg"
+                sparkle:edSignature="3x2Kg9IH/Oy/AT9FRL7PjH6GDQWGo26wJd+N4rpduey63WvWMX5bgIQvmuOtHMzk737D5qx0XyqWCB1dbAt9DQ=="
+                length="14934200"
+                type="application/octet-stream"/>
+        </item>
+        <item>
             <title>PowerCut 0.7.8</title>
             <pubDate>Sun, 23 Aug 2026 16:30:00 +0000</pubDate>
             <sparkle:version>27</sparkle:version>
