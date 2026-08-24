@@ -7,6 +7,24 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut 0.8.0</title>
+            <pubDate>Mon, 24 Aug 2026 16:14:00 +0000</pubDate>
+            <sparkle:version>29</sparkle:version>
+            <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Assistant Editor + (beta): completely optional, and PowerCut works fully without it. Connect your own Claude or ChatGPT API key in Settings and four assistant actions appear in the editor: Seam Lint reads the cut for seams that don't flow and can restore clipped words, Best Takes double-checks take picks against your script, Story Assembly proposes the strongest order, Transcript Polish fixes misheard words.</li>
+                    <li>Nothing applies without you: every suggestion lands in a review sheet with its reason and confidence, accepted changes apply as one undoable step, and a safety Version is saved first. Only the transcript and PowerCut's measurements are sent, never audio, video, or files, and only when you press an action. Your key lives in the macOS Keychain and usage bills to your own provider account, typically cents per run.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v0.8.0/PowerCut.dmg"
+                sparkle:edSignature="TYNn6ybIWcSIwx4FzDIo3yVzUO9d2dshxdxWLBwpGqO1Vjnl8Utv0Bj0hskWGp3l4phkx6YbHVf+S+ui/LBKCw=="
+                length="15087829"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PowerCut 0.7.9</title>
             <pubDate>Sun, 23 Aug 2026 22:45:00 +0000</pubDate>
             <sparkle:version>28</sparkle:version>
