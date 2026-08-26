@@ -7,6 +7,24 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut 0.8.1</title>
+            <pubDate>Wed, 26 Aug 2026 16:18:00 +0000</pubDate>
+            <sparkle:version>30</sparkle:version>
+            <sparkle:shortVersionString>0.8.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Take the tour: a guided quick start for new users, twelve short steps that ride your own first project, from dropping in footage to export. Each step points at the real control, advances as you do the real thing, and can be skipped at any moment. Replay it any time from Help > Take the Tour.</li>
+                    <li>The tour never blocks the app (everything stays clickable while a bubble is up), Back and Skip are always available, and existing users are not interrupted: the welcome only appears on a truly first launch.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v0.8.1/PowerCut.dmg"
+                sparkle:edSignature="QwqyrIc98YzwKHUWREpBLjxyg+gVYz/pfKngDQExqSZn7icnzyUhI/MzzpN8nnvNmyWFqLLR/4LmUI6brxwhAQ=="
+                length="15080140"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PowerCut 0.8.0</title>
             <pubDate>Mon, 24 Aug 2026 16:14:00 +0000</pubDate>
             <sparkle:version>29</sparkle:version>
