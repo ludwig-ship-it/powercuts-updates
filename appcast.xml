@@ -7,6 +7,25 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut 0.8.2</title>
+            <pubDate>Wed, 26 Aug 2026 23:47:00 +0000</pubDate>
+            <sparkle:version>31</sparkle:version>
+            <sparkle:shortVersionString>0.8.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Projects open instantly: the audio analysis now travels with the project file, so reopening no longer re-reads every clip's audio. Cards land settled, waveforms already drawn. A clip whose media changed on disk re-analyzes automatically.</li>
+                    <li>Switching audio tracks remembers everything: the transcript and every edit on the track you leave (strikes, corrections, take picks) come back instantly when you switch back, no re-transcription, and it survives closing the project.</li>
+                    <li>Audio tracks show their recorded names ("Lav", "Mix L") in the dropdowns and on the clip card instead of bare numbers.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v0.8.2/PowerCut.dmg"
+                sparkle:edSignature="bB/NSUUYTmot3RYd31K3mSwdHqDtHe8GKcgow/eOJRJQ+3Nsx9RFdSucrrrWmkYvPLXVb0BlF0Pk9EKSVm12BA=="
+                length="15114917"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PowerCut 0.8.1</title>
             <pubDate>Wed, 26 Aug 2026 16:18:00 +0000</pubDate>
             <sparkle:version>30</sparkle:version>
