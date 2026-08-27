@@ -7,6 +7,25 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut 0.8.4</title>
+            <pubDate>Thu, 27 Aug 2026 17:03:00 +0000</pubDate>
+            <sparkle:version>33</sparkle:version>
+            <sparkle:shortVersionString>0.8.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Edit right on the timeline: Delete removes a selected clip (frame-accurate, even tiny slivers; in the full view it strikes and restores), C splits at the playhead, Escape clears the selection, and right-clicking a clip offers Strike, Restore, Split, Play from Here, and more.</li>
+                    <li>Trims hold: extending or trimming a clip edge now sticks exactly where you release it. Your frame decision outranks every automatic rule; reclaimed audio no longer snaps back.</li>
+                    <li>Smoother while playing: transcript scrolling during playback no longer lags or jumps, the follow-along highlight keeps tracking through hand-edited sections, and waveforms draw to the very end of every clip at high zoom.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v0.8.4/PowerCut.dmg"
+                sparkle:edSignature="Kziw0qi924mNigYqnw3sewEkM+encZqNUTFWokBsRt/alzzTzD0iRlw/CH8zJNrjY/cMczcGYaSBoeIJdoh7Cw=="
+                length="15137555"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PowerCut 0.8.3</title>
             <pubDate>Thu, 27 Aug 2026 02:07:00 +0000</pubDate>
             <sparkle:version>32</sparkle:version>
