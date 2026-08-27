@@ -7,6 +7,24 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut 0.8.3</title>
+            <pubDate>Thu, 27 Aug 2026 02:07:00 +0000</pubDate>
+            <sparkle:version>32</sparkle:version>
+            <sparkle:shortVersionString>0.8.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Selecting text is instant: drag-selecting words and sentences now tracks the cursor with no delay on any project size, and a drag always selects, even when it starts in the margin or between paragraphs.</li>
+                    <li>The Strike bar meets your cursor: it appears the moment a drag starts selecting, follows just above the cursor, and lands where you release. Its buttons only accept clicks once the mouse is up.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v0.8.3/PowerCut.dmg"
+                sparkle:edSignature="h6qHDPlrSIUCp4+JDk55lJz5XXiBDEWb7yG4JZLkU4nIk906o0zimIEM1t+/8g5rprN5TT122ALV3x20XY49AQ=="
+                length="15113896"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PowerCut 0.8.2</title>
             <pubDate>Wed, 26 Aug 2026 23:47:00 +0000</pubDate>
             <sparkle:version>31</sparkle:version>
