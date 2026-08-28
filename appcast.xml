@@ -7,6 +7,24 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut 0.9.0</title>
+            <pubDate>Fri, 28 Aug 2026 18:38:00 +0000</pubDate>
+            <sparkle:version>34</sparkle:version>
+            <sparkle:shortVersionString>0.9.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Multicam angles: give each clip its other cameras and recorders, and the export arrives in Final Cut Pro or DaVinci Resolve as one synced multicam, ready to angle-switch. Open Angles next to the Multicam wrapper option: add files, or create named blank angles and choose their clips later (blanks arrive as empty lanes). Set up once, remembered with the project.</li>
+                    <li>Three ways to sync each angle: automatically by timecode (Sony metadata timecode in Resolve), the new Sync by audio that matches waveforms to frame accuracy using your clip's selected audio track against the angle track you pick (built for cameras with no timecode), or a manual offset in seconds.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v0.9.0/PowerCut.dmg"
+                sparkle:edSignature="A3zQjjhv0eX9sRsro9O+SQQwH3l5Km+CusIDp79Cf/jxKSY8sS8JTgYKLgS2RTu4zgd3w5prtOC3ZcxvQkcHDQ=="
+                length="15256343"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PowerCut 0.8.4</title>
             <pubDate>Thu, 27 Aug 2026 17:03:00 +0000</pubDate>
             <sparkle:version>33</sparkle:version>
