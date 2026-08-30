@@ -7,6 +7,26 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut 0.9.1</title>
+            <pubDate>Sun, 30 Aug 2026 05:46:00 +0000</pubDate>
+            <sparkle:version>35</sparkle:version>
+            <sparkle:shortVersionString>0.9.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Markers, Keywords, and Favorites: press F, K, or M on any words in the transcript or Doc view, or right-click. Favorites underline green, keywords amber, markers show as teal bookmarks you can click to rename or delete. The bookmark pill in the header lists everything: click a row to jump there, export the list as a CSV or text doc with timecodes and the line each one sits on. Hide any kind, or remove all of a kind from the Edit menu. The timeline shows them too.</li>
+                    <li>They travel with the XML: Final Cut imports keywords and favorites onto your original clips in the browser, markers land on the timeline, inside multicams, and on the source clips (struck markers stay inside the multicam only). DaVinci Resolve gets marker EDL sidecars for the timeline and each multicam, imported in two clicks. Premiere gets timeline markers.</li>
+                    <li>Cleanup passes are now instant toggles: every pass computes in the background whether or not its box is checked, so flipping a checkbox applies or lifts it instantly. Your own edits always win, and the Run Clean ups button re-runs only what has gone stale.</li>
+                    <li>On a Mac below macOS 26, PowerCut now says at launch that transcription needs Tahoe instead of leaving transcripts silently empty.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v0.9.1/PowerCut.dmg"
+                length="15418804"
+                type="application/octet-stream"
+                sparkle:edSignature="+QYg4ij6XI+KJAyshrCRcuCUz0PQErF04hWGydR7s0Bd6pZYW7xvq3I019S0j0bulEPsZKW9FXqAQz0JBWEDAg=="/>
+        </item>
+        <item>
             <title>PowerCut 0.9.0</title>
             <pubDate>Fri, 28 Aug 2026 18:38:00 +0000</pubDate>
             <sparkle:version>34</sparkle:version>
