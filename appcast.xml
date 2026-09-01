@@ -7,6 +7,26 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut 0.9.4</title>
+            <pubDate>Tue, 01 Sep 2026 23:04:36 +0000</pubDate>
+            <sparkle:version>38</sparkle:version>
+            <sparkle:shortVersionString>0.9.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Zoom in on what matters: select text in the transcript, or right-click a clip on the timeline, and punch in. Two editable preset levels, a draggable dot to aim the zoom and a ring to set the strength, live in the preview. Zooms export to Final Cut Pro and DaVinci Resolve as real transform adjustments, frame accurate and resolution independent, on plain clips, multicam and compound clips alike, and reuse your existing edit points wherever they can.</li>
+                    <li>Copy, cut and paste text with the standard shortcuts, in both the Edit and Doc views. A blinking caret shows exactly where pasted text will land.</li>
+                    <li>A faster app on big projects: word clicks land instantly, scrolling is smooth, Hide Cuts switches without a pause, and playback starts immediately after clicking anywhere. The transcript has a new scroll handle that tracks your drag at full speed.</li>
+                    <li>Smaller things: the right-column panels collapse individually, the window remembers its size and position between launches, selection highlights no longer split mid-word, and annotating never pauses playback for a rebuild.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v0.9.4/PowerCut.dmg"
+                length="15547673"
+                type="application/octet-stream"
+                sparkle:edSignature="exUJEXsxpZcKRvYU8Ee3VpuGoiBYkPCWZ9Xl42KbQY2SjyQPsG72pqrgJ0mNR+TNOD/FlNjDvf7h7XnvIkwQBw=="/>
+        </item>
+        <item>
             <title>PowerCut 0.9.3</title>
             <pubDate>Tue, 01 Sep 2026 16:10:18 +0000</pubDate>
             <sparkle:version>37</sparkle:version>
