@@ -7,6 +7,29 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut 0.9.7</title>
+            <pubDate>Wed, 02 Sep 2026 23:35:11 +0000</pubDate>
+            <sparkle:version>40</sparkle:version>
+            <sparkle:shortVersionString>0.9.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Big takes no longer crash: a single hour-long segment with tens of thousands of words used to overflow the transcript and timeline views. Giant paragraphs now split into rows, words are lightweight, and the timeline only builds what is on screen. Scrolling and Hide Cuts are faster on every project.</li>
+                    <li>Import a multicam or compound clip from Final Cut Pro or DaVinci Resolve (File, Import Final Cut Pro / Resolve XML, or drop the .fcpxml anywhere): the footage becomes clips with their angles and dialogue track linked.</li>
+                    <li>Export wrappers: Plain Clips, Compound Clips For Each Clip, Compound Clip All Clips, Multicam For Each Clip, Multicam All Clips. Resolve now conforms every multicam, camera timecode and odd frame rates included.</li>
+                    <li>The transcript follows playback (toggle next to Hide Cuts), and the Document view has Skip Cuts so only the edit plays.</li>
+                    <li>Language: a new project starts in the language you picked last, and the first clip's speech sets the language automatically when the Whisper base model is on your Mac.</li>
+                    <li>Background noise tolerance slider in the Pauses card; script import from Word, RTF, Markdown or text, or by dropping the file; export dialogs open in the footage folder; vertical footage exports a vertical sequence.</li>
+                    <li>Fixes: the word context menu now always reflects the current selection and offers Favorite, Keyword and Marker on a plain word; the window reopens at the size you left it; a project that fails to open says so.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v0.9.7/PowerCut.dmg"
+                length="15625465"
+                type="application/octet-stream"
+                sparkle:edSignature="0yKjbvWml73RQE2hjf3CGELvCDIqHmtYp6WxTTtKG4F/+ROygRNebTn02yjlCUs8rDCsmKnFR5nzZHTqez4YDg=="/>
+        </item>
+        <item>
             <title>PowerCut 0.9.5</title>
             <pubDate>Wed, 02 Sep 2026 04:25:44 +0000</pubDate>
             <sparkle:version>39</sparkle:version>
