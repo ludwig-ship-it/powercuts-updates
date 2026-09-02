@@ -7,6 +7,26 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut 0.9.5</title>
+            <pubDate>Wed, 02 Sep 2026 04:25:44 +0000</pubDate>
+            <sparkle:version>39</sparkle:version>
+            <sparkle:shortVersionString>0.9.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Chinese reads like Chinese: no more spaces between transcribed characters, in the Document view, edit popups, copied text, captions, the marker CSV and the exported .docx. Embedded English words and numbers keep their spacing, and phrase corrections typed without spaces map each character back onto its own timed word.</li>
+                    <li>The right microphone, automatically: multi-track clips get a listen at import. Silent tracks are ruled out and the track carrying speech is chosen for transcription; close calls are marked "check mic" with each track's level and speech reading shown in the picker. Manual picks are always remembered.</li>
+                    <li>Drop footage anywhere on the Footage panel, clip list and empty space included.</li>
+                    <li>Fixes: Document-view word editing no longer leaks keystrokes into the page behind the popup; the background-work hint moved into the Footage column above Run Auto Edit Pass; the Footage column is a little wider.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v0.9.5/PowerCut.dmg"
+                length="15542492"
+                type="application/octet-stream"
+                sparkle:edSignature="EV+dzFUk/gDqRZ+iSSzBRUDB/yfYmaj7ZvKOttUaQmL0Ms4qSRBdKLWn78uSF865khCyu3Zccnq1GmdMnSFIDQ=="/>
+        </item>
+        <item>
             <title>PowerCut 0.9.4</title>
             <pubDate>Tue, 01 Sep 2026 23:04:36 +0000</pubDate>
             <sparkle:version>38</sparkle:version>
