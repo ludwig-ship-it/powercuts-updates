@@ -7,6 +7,27 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut 0.9.8</title>
+            <pubDate>Thu, 03 Sep 2026 01:05:07 +0000</pubDate>
+            <sparkle:version>41</sparkle:version>
+            <sparkle:shortVersionString>0.9.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Word correction works again: the correction balloon sat in the top-left corner instead of on the word, so Edit, Correct Word and double-click looked dead. It now anchors on the word in both views, and marker popups do too.</li>
+                    <li>The editing keys (S, U, F, M, K) no longer depend on keyboard focus, which stopped delivering them on a macOS beta: they work whenever the editing window is in front. K pauses while playing and adds a keyword when paused.</li>
+                    <li>Find: a one-letter word no longer matches every article in the transcript, and misheard names are found by sound ("curataki" for "Kuretake").</li>
+                    <li>New Project offers Don't Save. The Review count's tip explains that every cut is already made and nothing waits for approval.</li>
+                    <li>Help menu: Keyboard Shortcuts.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v0.9.8/PowerCut.dmg"
+                length="15625158"
+                type="application/octet-stream"
+                sparkle:edSignature="dsvUOHt+l9IMYN7Bx13yQICnwyXhqb4L8QVZ+t8emOdvot6hzxM3NkMkaJ+DizCeszYO9CcKusuJW3K1tV3mBQ=="/>
+        </item>
+        <item>
             <title>PowerCut 0.9.7</title>
             <pubDate>Wed, 02 Sep 2026 23:35:11 +0000</pubDate>
             <sparkle:version>40</sparkle:version>
