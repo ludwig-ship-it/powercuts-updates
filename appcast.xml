@@ -7,6 +7,26 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut 0.9.9</title>
+            <pubDate>Thu, 03 Sep 2026 03:11:57 +0000</pubDate>
+            <sparkle:version>42</sparkle:version>
+            <sparkle:shortVersionString>0.9.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Several tracks or angles as one voice: tick more than one track in a clip's Audio Track menu, or tick Dialogue on an angle in Angles, and transcription, analysis and playback hear them as one signal. A two-person interview recorded as one file per person, imported from a Final Cut Pro multicam, arrives with both voices in one transcript.</li>
+                    <li>The multicam leaves the way it came: importing a multicam switches that project's export to Multicam For Each Clip, and the export rebuilds it under the same container and angle names, with your cuts applied and every angle whose audio was on (or that you linked as dialogue) switched on in Final Cut Pro. Use My Default in the export bar returns to your usual wrapper.</li>
+                    <li>Watch another angle: the player has an angle menu next to the transport buttons that shows any angle's picture for the source under the playhead, everywhere that source appears. Audio, cut and export stay unchanged.</li>
+                    <li>Smaller things: a linked angle that goes offline is flagged on the clip and comes back into the transcript when the drive returns; the remembered-language setting now persists between launches; the Mic menu picks which track of an angle carries the voice.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v0.9.9/PowerCut.dmg"
+                length="15829086"
+                type="application/octet-stream"
+                sparkle:edSignature="DA7qYKdegtHU/5Yu/3vLk70hIL46e/WUmYMfzfEz8kz/stRdun00vGulw+jgNgRQehmWwgXiJETh1RZ7bRDXDw=="/>
+        </item>
+        <item>
             <title>PowerCut 0.9.8</title>
             <pubDate>Thu, 03 Sep 2026 01:05:07 +0000</pubDate>
             <sparkle:version>41</sparkle:version>
