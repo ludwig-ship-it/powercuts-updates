@@ -7,6 +7,29 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut 1.0.0</title>
+            <pubDate>Fri, 04 Sep 2026 19:10:46 +0000</pubDate>
+            <sparkle:version>47</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Speakers: tick Multiple speakers and PowerCut labels who is talking, from separate microphones (one track or angle per person) or from the voices on a single mic. Names sit in front of each turn in the transcript, under the timestamps in the Document view, and optionally in the captions. Rename, merge, hide the labels, or set how many people talk in the Speakers panel.</li>
+                    <li>Picture switching: select words and choose Picture to show another angle for that stretch. The player shows it and the multicam export carries the switch. The player's angle menu picks the main picture for a source everywhere it appears.</li>
+                    <li>Create Multicam Clip builds a synced set from a folder of files in one step; the main clip can be audio-only. Field recorder WAVs from Sound Devices, Zoom or MixPre sync by the timecode written into them and export in the right place, so an audio angle no longer arrives empty in Final Cut Pro. Multichannel recorder files transcribe.</li>
+                    <li>XML import: choose which audio to transcribe before the pass, angles and compound audio angles included; importing the same XML twice adds nothing twice.</li>
+                    <li>Timeline: Rough Cut and Full Footage are what you see, Skip Strikes and Hide Strikes are the two switches. Every kept section has its own trim grips, outward trims stop at the neighbouring clip, and fewer edit points are made for nothing. Follow keeps the playing or clicked word centred at any zoom, Command plus and minus zoom, and shift-click selects a run of clips.</li>
+                    <li>Takes: a redone run of sentences inside one paragraph becomes its own take, and script-driven takes follow the script with a second pass that checks them.</li>
+                    <li>Smaller things: correcting a word no longer scrolls the transcript away; Help, Keyboard Shortcuts opens the list in the app; angles are renameable from their menus, the main angle too; a per-project export folder; a project file dropped into the window opens as a project whatever its extension; playback hardening for a crash reported on macOS 26.5.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.0.0/PowerCut.dmg"
+                length="16376359"
+                type="application/octet-stream"
+                sparkle:edSignature="9eL4Z++BztmSxeGjNt2YSIQNPqlYmrPPMdpmhxuZ9sJWnnZ6Rev+TV3/YbxV8zKs9QQZvfrUZ7yuPbI+C/tgCA=="/>
+        </item>
+        <item>
             <title>PowerCut Beta 1.0b1 (46)</title>
             <pubDate>Fri, 04 Sep 2026 18:00:03 +0000</pubDate>
             <sparkle:channel>beta</sparkle:channel>
