@@ -7,6 +7,29 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut Beta 1.0b1 (46)</title>
+            <pubDate>Fri, 04 Sep 2026 18:00:03 +0000</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>46</sparkle:version>
+            <sparkle:shortVersionString>1.0b1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Timeline: Rough Cut and Full Footage are what you see, with Skip Strikes and Hide Strikes as the two switches. Full Footage shows each file as one solid clip and, with Skip Strikes off, plays the whole files.</li>
+                    <li>Every cut region now draws in the full-space timeline, each kept section has its own trim grips, and outward trims stop at the neighbouring clip.</li>
+                    <li>Fewer edits for nothing: a pause cut inside a take must remove at least a quarter second, tiny stubs between cuts fold away, and breath cuts respect the pause slider.</li>
+                    <li>Follow keeps the playing or clicked word centred at any zoom, playing or paused. Command plus and minus zoom the timeline. Shift-click selects a run of clips.</li>
+                    <li>Speakers: a Hide Speaker Labels button in the Speakers panel, and the Multiple speakers choice sits with the Create button in Create Multicam Clip.</li>
+                    <li>A project file dropped into the window opens as a project, whatever its extension.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.0b1-46/PowerCutBeta.dmg"
+                sparkle:edSignature="lFtkKKbA5dL3SGEZWv2G8hXs0gj0wpDSfG764+UEvaR/k2+WDyrBqtcrngyzG8soqAD3GX+2Rqwcx8zr5Jp9Bg=="
+                length="16377895"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PowerCut Beta 1.0b1 (45)</title>
             <pubDate>Fri, 04 Sep 2026 04:24:31 +0000</pubDate>
             <sparkle:channel>beta</sparkle:channel>
