@@ -7,6 +7,25 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut Beta 1.0.0 (48)</title>
+            <pubDate>Fri, 04 Sep 2026 22:20:58 +0000</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>48</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>The same code as the PowerCut 1.0.0 release: speakers and picture switching are on for everyone, and the Settings toggle now only controls the beta update channel.</li>
+                    <li>Update fix: the beta app no longer tries to install release builds, which its signature check refused ("The update is improperly signed"). From this build on, PowerCut Beta updates only to beta builds. To move to the release, download PowerCut 1.0.0 from your Payhip library; both open the same projects.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.0.0-48/PowerCutBeta.dmg"
+                sparkle:edSignature="58Yc7EjCvnjxue2a1kb73KTwAK3NOyO48gFBd2Nbrh+5g7xmEWmKbwyGj1/q7I5WyIDOimnrqQeSCmDO5eeBBA=="
+                length="16377473"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PowerCut 1.0.0</title>
             <pubDate>Fri, 04 Sep 2026 19:10:46 +0000</pubDate>
             <sparkle:version>47</sparkle:version>
