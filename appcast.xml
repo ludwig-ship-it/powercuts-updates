@@ -7,6 +7,29 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut Beta 1.0b1 (45)</title>
+            <pubDate>Fri, 04 Sep 2026 04:24:31 +0000</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>45</sparkle:version>
+            <sparkle:shortVersionString>1.0b1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Field recorder files: the start timecode a Sound Devices, Zoom or MixPre recorder writes into its WAV files now syncs the recorder to your camera automatically and exports at the right place. Final Cut and Resolve read that timecode, so an audio angle no longer arrives empty.</li>
+                    <li>Create Multicam Clip accepts an audio-only main clip, and multichannel recorder files transcribe.</li>
+                    <li>Speakers are opt-in: a Multiple speakers checkbox on the empty screen and in Create Multicam Clip, off by default, and a Speakers switch on the transcript page.</li>
+                    <li>Correcting a word no longer scrolls the transcript away.</li>
+                    <li>Retakes inside one paragraph are found: a redone run of sentences becomes its own take, and the last full attempt is recommended.</li>
+                    <li>Playback hardening for a crash reported on macOS 26.5.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.0b1-45/PowerCutBeta.dmg"
+                sparkle:edSignature="mcDVVgzFqt0+ZOnXApyFBNaPfmT1fMIxjkUQeHABZUnAW1IcDN0HuLTw4jof7k5PgOlZuMd8VTe75Qynt7PCDQ=="
+                length="16344253"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PowerCut 0.9.9</title>
             <pubDate>Thu, 03 Sep 2026 03:11:57 +0000</pubDate>
             <sparkle:version>42</sparkle:version>
