@@ -7,6 +7,26 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut Beta 1.1b1 (51)</title>
+            <pubDate>Sat, 05 Sep 2026 01:34:27 +0000</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>51</sparkle:version>
+            <sparkle:shortVersionString>1.1b1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Fewer beachballs, round two: after an edit the transcript re-measures only the words that changed instead of every visible word, the timeline no longer rebuilds its inputs on every playhead tick, and autosave writes the project in the background instead of on the main thread.</li>
+                    <li>Round one (build 50) already stopped the edit plan from rescanning the clip's audio once per segment. If a beachball still shows up, turn on the stall log with <code>defaults write com.rafaelludwig.PowerCuts.beta debug.perf -bool true</code>, reproduce, and send /tmp/powercut-perf.log.</li>
+                    <li>Switch camera by speaker (from build 50) is unchanged: give each speaker a picture in the Speakers panel and tick the checkbox.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.1b1-51/PowerCutBeta.dmg"
+                sparkle:edSignature="eeCkJAGhr2ChcElBjU6pRwVFbcnIOs1Yz6o46D+FrV9JgiIjq9FXLH6xm/ZfkY9t3vq3E2a9dl20fV90dTtLBA=="
+                length="16439269"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PowerCut Beta 1.1b1 (50)</title>
             <pubDate>Sat, 05 Sep 2026 00:37:16 +0000</pubDate>
             <sparkle:channel>beta</sparkle:channel>
