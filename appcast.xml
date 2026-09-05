@@ -7,6 +7,28 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut 1.0.2</title>
+            <pubDate>Sat, 05 Sep 2026 17:39:51 -0400</pubDate>
+            <sparkle:version>50</sparkle:version>
+            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Captions follow the voice: a new cue starts on a breath, at a sentence or clause end, or when the speaker changes; every cue stays up at least a second and none runs past 4.5 seconds (3.5 for Chinese, Japanese and Korean, with 20-character lines wrapped at a clause mark).</li>
+                    <li>Cantonese and Chinese: Transcription Accuracy gains Large v2, the older full Whisper model that is steadier on Cantonese than v3. At Standard these languages stay on Apple's engine; Maximum or Large v2 moves them to Whisper. A clip that comes back empty or as one repeated sentence is retried once on another large model already on your Mac. Cantonese can be written in Traditional (default) or Simplified script; the choice is in the settings column.</li>
+                    <li>Auto Edit: parallel clauses ("I know you heard it, and I know you didn't believe it") are no longer treated as retakes; a script the read barely follows strikes nothing; dragging from a single selected word extends the selection instead of moving the word; removing a script offers to run the pass again.</li>
+                    <li>File &gt; Save Project with Audio: one folder that opens anywhere with the edit and audible playback. A double-clicked .powercuts file opens in PowerCut. The footage row says when a clip is a multicam, with its angle count.</li>
+                    <li>DaVinci Resolve with multi-track audio: a plain export is written as OpenTimelineIO so every audio track arrives; with a compound or multicam wrapper the export asks which you want, and the ready message walks through the import.</li>
+                    <li>Fewer beachballs: the edit plan stops rescanning audio per segment, the transcript re-measures only the words that changed, the timeline stops rebuilding its inputs on every playhead tick, and autosave runs off the main thread.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.0.2/PowerCut.dmg"
+                length="16492658"
+                type="application/octet-stream"
+                sparkle:edSignature="L3e84mTdeTaDqsAOhHiJTtH2e1+hR0aXuHn+L1kdmRlS3TUzlvqEsL4rhwNQ43AVlJ1mcof89EyD2S36xPRjBg=="/>
+        </item>
+        <item>
             <title>PowerCut Beta 1.1b1 (52)</title>
             <pubDate>Sat, 05 Sep 2026 17:33:00 -0400</pubDate>
             <sparkle:channel>beta</sparkle:channel>
