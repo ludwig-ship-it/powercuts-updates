@@ -7,6 +7,27 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut Beta 1.1b1 (50)</title>
+            <pubDate>Sat, 05 Sep 2026 00:37:16 +0000</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>50</sparkle:version>
+            <sparkle:shortVersionString>1.1b1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Switch camera by speaker: a checkbox in the Speakers panel. Give each speaker a picture (the Main menu next to the name) and the player cuts to whoever is talking; the timeline shows the switches as a faint lane under each clip, and the Final Cut Pro and Resolve multicam export carries them. A speaker without a picture shows the main clip; when both talk, or nobody talks for a second or more, the Wide speaker's angle shows, otherwise the shot holds. Shots under a second fold into their neighbour, every cut lands on a frame, struck material never chooses the camera, and a manual Picture switch always wins.</li>
+                    <li>Not yet: Premiere Pro carries no picture switches (as before), and there is no lead or lag and no minimum-shot setting. Tell me what a real interview needs.</li>
+                    <li>Fewer beachballs: a strike, restore or trim no longer rescans the clip's whole audio once per segment, and a project loading many clips refreshes once per finished batch instead of once per clip. On a 7,000-word project the edit plan is a third faster, and far more on long clips with many segments.</li>
+                    <li>Tooltips appear sooner.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.1b1-50/PowerCutBeta.dmg"
+                sparkle:edSignature="6xgA9wYI9lvrkOvpl25cENZ4nwgjLD1f68ZZzYb5ghLVNqXIH6XdKyOEpyWsBey8FNERcFPCQbykKOo1UEr8DQ=="
+                length="16399546"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PowerCut Beta 1.0.0 (48)</title>
             <pubDate>Fri, 04 Sep 2026 22:20:58 +0000</pubDate>
             <sparkle:channel>beta</sparkle:channel>
