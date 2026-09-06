@@ -7,6 +7,51 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut 1.0.3</title>
+            <pubDate>Sun, 06 Sep 2026 11:25:28 -0400</pubDate>
+            <sparkle:version>52</sparkle:version>
+            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Video styles now change the edit, not just the pacing. Podcast / Interview keeps the conversation: only silences over 5 s go (6 s mid-sentence), a laugh or a reaction without words stays, breaths stay, and small talk, trail-offs and re-reads are not struck; filler words and repeated takes follow their checkboxes. Documentary keeps pauses under 1.5 s and reactions; Storytelling keeps the beat and repetition for effect; Tutorial never strikes an instruction that trails into a demonstration; Vlog treats "Nice!" as content. The style is chosen on the start page under Add Script, and the Pauses card shows the exact bars in use.</li>
+                    <li>Cleanup gains a Light level below Natural (only clear dead air goes, breaths stay) and a Remove silences switch: off keeps every pause in every style, on the start page too.</li>
+                    <li>Demonstrations stay in the cut: after "like this", "let me show you", "click here" and similar cues the pause that follows is kept whole. On by default for YouTube Tutorial and Tech, a Keep demonstrations checkbox for any style, and every kept pause lists in the review queue with a Cut button that teaches the rule.</li>
+                    <li>Audible-breath cuts finally land: a later safety pass had been undoing every one of them since they were added.</li>
+                    <li>Switching away from the Podcast / Interview style no longer fails to save its safety version; the alert now shows the real reason when a version cannot be written.</li>
+                    <li>The red close button quits the app. The Final Cut / Resolve XML import panel accepts every .fcpxmld bundle (some were greyed out).</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.0.3/PowerCut.dmg"
+                length="16490081"
+                type="application/octet-stream"
+                sparkle:edSignature="y4wGxdpqXsrUs23u9VED1/Gr33snh4+NgyV0LEGGw6SBxyegRwKmRnzaRhFZ7HT4OWasPtC2sTlkB27eYScrDg=="/>
+        </item>
+        <item>
+            <title>PowerCut Beta 1.1b1 (53)</title>
+            <pubDate>Sun, 06 Sep 2026 11:25:28 -0400</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>53</sparkle:version>
+            <sparkle:shortVersionString>1.1b1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Video styles now change the edit, not just the pacing. Podcast / Interview keeps the conversation: only silences over 5 s go (6 s mid-sentence), a laugh or a reaction without words stays, breaths stay, and small talk, trail-offs and re-reads are not struck; filler words and repeated takes follow their checkboxes. Documentary keeps pauses under 1.5 s and reactions; Storytelling keeps the beat and repetition for effect; Tutorial never strikes an instruction that trails into a demonstration; Vlog treats "Nice!" as content. The style is chosen on the start page under Add Script, and the Pauses card shows the exact bars in use.</li>
+                    <li>Cleanup gains a Light level below Natural (only clear dead air goes, breaths stay) and a Remove silences switch: off keeps every pause in every style, on the start page too.</li>
+                    <li>Demonstrations stay in the cut: after "like this", "let me show you", "click here" and similar cues the pause that follows is kept whole. On by default for YouTube Tutorial and Tech, a Keep demonstrations checkbox for any style, and every kept pause lists in the review queue with a Cut button that teaches the rule.</li>
+                    <li>Audible-breath cuts finally land: a later safety pass had been undoing every one of them since they were added.</li>
+                    <li>Switching away from the Podcast / Interview style no longer fails to save its safety version; the alert now shows the real reason when a version cannot be written.</li>
+                    <li>The red close button quits the app. The Final Cut / Resolve XML import panel accepts every .fcpxmld bundle (some were greyed out).</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.1b1-53/PowerCutBeta.dmg"
+                sparkle:edSignature="L2iqkqJ2KAbOd5t9Fs92CN3JZSD0QEGWI/QJWMEtF1gJksEarbi1f6SElhQeN/XQ09S/Qln9l7vNWfcXCtRHDw=="
+                length="16488008"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PowerCut 1.0.2</title>
             <pubDate>Sat, 05 Sep 2026 17:39:51 -0400</pubDate>
             <sparkle:version>50</sparkle:version>
