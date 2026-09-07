@@ -7,6 +7,55 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut 1.0.5</title>
+            <pubDate>Mon, 07 Sep 2026 15:26:59 -0400</pubDate>
+            <sparkle:version>54</sparkle:version>
+            <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Music stays in. PowerCut now listens to the channels and tracks the transcript does not use (a music track, the other channel of the voice track). A pause in the voice that music or another voice fills stays in the cut whole, paragraph edges included, and lists in the review queue as "Music or other audio kept" with a one-click Cut. Remove detected music in Cleanup, or on the start page, cuts those pauses like any other. The music plays in PowerCut's preview at the Other channels in preview level in the Pauses card; the export always carries the whole file.</li>
+                    <li>Music Tutorial video style: voiceover over music and playing. Pauses filled by music stay, a phrase you play into the mic stays, demonstrations stay ("listen to this", "sounds like this"), and an instruction that trails into playing is never struck.</li>
+                    <li>Dialogue track: the first track wins unless another clearly carries the speech (a loud music track no longer becomes the transcript source).</li>
+                    <li>Assistant Editor + now works with the AI app you already have. Connect the Claude Desktop app or Codex in Settings (no key), chat with it about your project, and watch the edit change in PowerCut: it reads the transcript, strikes and restores, corrects misheard words, picks takes, settles review items, adds markers, moves paragraphs and runs the Auto Edit Pass, each change with its reason and an Undo in the new Assistant Editor + panel. This is the one feature that sends your transcript off your Mac, and PowerCut says so before it connects. The API-key route is gone.</li>
+                    <li>Cleanup: a parallel list ("one, which is my dialogue, one, which is my piano") is no longer struck as a restart; a filler the transcript itself spells out ("uh," "um,") is struck even when the verbatim engine heard none.</li>
+                    <li>Vietnamese (beta), carried by the on-device Whisper engine.</li>
+                    <li>A clip whose speech went mostly unrecognized (a Polish clip transcribed as English) gets a notice in the footage header with one button: Detect Language and Transcribe Again.</li>
+                    <li>Fixes from a full code review: renaming a project to a name another project already uses no longer replaces that project (PowerCut picks "Name 2"); a save that fails (a read-only or unmounted destination) says so once instead of silently losing the session, Save As moves the project home only once the write succeeds, and Open Project saves the outgoing project first; script decisions are saved for every clip, not only clips with speaker detection, so SCRIPT badges survive reopening; accepting a script review item removes it from the queue; manual cuts keep their exact bounds through the Auto Edit Pass; 119.88 and 47.952 fps footage and Sony drop-frame timecode land angles where they belong; a damaged project file opens instead of crashing; export from the File menu follows the trial and license like the Export bar, and the trial state refreshes when the app comes to the front; a control character in a marker or project name no longer breaks the FCPXML or the transcript document.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.0.5/PowerCut.dmg"
+                length="16571396"
+                type="application/octet-stream"
+                sparkle:edSignature="CLpRvK8V+MsN0RtPqPQ2AoLGx6/09ACgI/r92lUtBDLCtbJc/DHQMLeeNLry7YQUSms9PZf5/5RpbsbcS3uBDQ=="/>
+        </item>
+        <item>
+            <title>PowerCut Beta 1.1b1 (55)</title>
+            <pubDate>Mon, 07 Sep 2026 15:26:59 -0400</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>55</sparkle:version>
+            <sparkle:shortVersionString>1.1b1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Music stays in. PowerCut now listens to the channels and tracks the transcript does not use (a music track, the other channel of the voice track). A pause in the voice that music or another voice fills stays in the cut whole, paragraph edges included, and lists in the review queue as "Music or other audio kept" with a one-click Cut. Remove detected music in Cleanup, or on the start page, cuts those pauses like any other. The music plays in PowerCut's preview at the Other channels in preview level in the Pauses card; the export always carries the whole file.</li>
+                    <li>Music Tutorial video style: voiceover over music and playing. Pauses filled by music stay, a phrase you play into the mic stays, demonstrations stay ("listen to this", "sounds like this"), and an instruction that trails into playing is never struck.</li>
+                    <li>Dialogue track: the first track wins unless another clearly carries the speech (a loud music track no longer becomes the transcript source).</li>
+                    <li>Assistant Editor + now works with the AI app you already have. Connect the Claude Desktop app or Codex in Settings (no key), chat with it about your project, and watch the edit change in PowerCut: it reads the transcript, strikes and restores, corrects misheard words, picks takes, settles review items, adds markers, moves paragraphs and runs the Auto Edit Pass, each change with its reason and an Undo in the new Assistant Editor + panel. This is the one feature that sends your transcript off your Mac, and PowerCut says so before it connects. The API-key route is gone.</li>
+                    <li>Cleanup: a parallel list ("one, which is my dialogue, one, which is my piano") is no longer struck as a restart; a filler the transcript itself spells out ("uh," "um,") is struck even when the verbatim engine heard none.</li>
+                    <li>Vietnamese (beta), carried by the on-device Whisper engine.</li>
+                    <li>A clip whose speech went mostly unrecognized (a Polish clip transcribed as English) gets a notice in the footage header with one button: Detect Language and Transcribe Again.</li>
+                    <li>Fixes from a full code review: renaming a project to a name another project already uses no longer replaces that project (PowerCut picks "Name 2"); a save that fails (a read-only or unmounted destination) says so once instead of silently losing the session, Save As moves the project home only once the write succeeds, and Open Project saves the outgoing project first; script decisions are saved for every clip, not only clips with speaker detection, so SCRIPT badges survive reopening; accepting a script review item removes it from the queue; manual cuts keep their exact bounds through the Auto Edit Pass; 119.88 and 47.952 fps footage and Sony drop-frame timecode land angles where they belong; a damaged project file opens instead of crashing; export from the File menu follows the trial and license like the Export bar, and the trial state refreshes when the app comes to the front; a control character in a marker or project name no longer breaks the FCPXML or the transcript document.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.1b1-55/PowerCutBeta.dmg"
+                sparkle:edSignature="3Vm8GGo/7nGT2oUFhylYZ+r6wascQ3kQkGi5gnBPLk40oEclDdc16ONXb3PEvh7LP8EBy/+ewFvYiHShricdCQ=="
+                length="16548866"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PowerCut 1.0.3</title>
             <pubDate>Sun, 06 Sep 2026 11:25:28 -0400</pubDate>
             <sparkle:version>52</sparkle:version>
