@@ -7,6 +7,61 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut Beta 1.1b1 (59)</title>
+            <pubDate>Tue, 08 Sep 2026 21:13:43 -0400</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>59</sparkle:version>
+            <sparkle:shortVersionString>1.1b1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>A video style now sets the cleanup checkboxes on the start page. Podcast / Interview starts with repeated takes, production asides and context judgment off, at Light; Documentary keeps asides on; every other style starts all three on at Natural. Silences and filler words stay your choice, and the checkboxes stay adjustable right there.</li>
+                    <li>In an open project, switching style leaves your checkboxes alone. The Cleanup card has a new Style defaults button that applies them on request, one undo step away.</li>
+                    <li>With repeated takes off, production asides still get their own first pass on import.</li>
+                    <li>The Footage list has a Sort menu: by name (Finder order, Clip 2 before Clip 10), by recording time, or reversed. One undo step; the story follows the clip order.</li>
+                    <li>Angles sync by audio by default. A new angle listens as soon as its file is read and matches the waveforms on its own, with no manual step; when the audio cannot be matched, timecode takes over if both files carry it, and otherwise the angle gets a manual offset of 0 s you can adjust, so a multicam is never held up. Timecode and a manual offset stay one click away in the angle menu, a swapped file listens again, and Create Multicam rows sync by audio as you choose their files.</li>
+                    <li>Looks right. A yellow word (the two engines disagree) that reads correctly no longer needs the editor: press Y on it, or on a selection, and it is confirmed and the selection jumps to the next yellow word, so a proofreading pass is Y, Y, Y. Looks Right is also in the word menu and in the correction popover; Edit > Next Uncertain Word (Option-Command-Right) steps without confirming; a confirmed word stays settled through later engine checks; the Assistant Editor + gets a matching confirm_words tool.</li>
+                    <li>Right-click menus explain themselves: every item has a tooltip, and the Picture submenu is now Video Angle.</li>
+                    <li>Fix: the Document view could crash with a trap while a strike, an undo or the Skip Cuts switch shortened the page underneath it (two 1.0.5 reports). A word row now reads a consistent snapshot of the page and a stale word renders nothing for one pass instead of stopping the app.</li>
+                    <li>Music stays in. PowerCut now listens to the channels and tracks the transcript does not use (a music track, the other channel of the voice track). A pause in the voice that music or another voice fills stays in the cut whole, paragraph edges included, and lists in the review queue as "Music or other audio kept" with a one-click Cut. Remove detected music in Cleanup, or on the start page, cuts those pauses like any other. The music plays in PowerCut's preview at the Other channels in preview level in the Pauses card; the export always carries the whole file.</li>
+                    <li>Music Tutorial video style: voiceover over music and playing. Pauses filled by music stay, a phrase you play into the mic stays, demonstrations stay ("listen to this", "sounds like this"), and an instruction that trails into playing is never struck.</li>
+                    <li>Dialogue track: the first track wins unless another clearly carries the speech (a loud music track no longer becomes the transcript source).</li>
+                    <li>Assistant Editor + now works with the AI app you already have. Connect the Claude Desktop app or Codex in Settings (no key), chat with it about your project, and watch the edit change in PowerCut: it reads the transcript, strikes and restores, corrects misheard words, picks takes, settles review items, adds markers, moves paragraphs and runs the Auto Edit Pass, each change with its reason and an Undo in the new Assistant Editor + panel. This is the one feature that sends your transcript off your Mac, and PowerCut says so before it connects. The API-key route is gone.</li>
+                    <li>Cleanup: a parallel list ("one, which is my dialogue, one, which is my piano") is no longer struck as a restart; a filler the transcript itself spells out ("uh," "um,") is struck even when the verbatim engine heard none.</li>
+                    <li>Vietnamese (beta), carried by the on-device Whisper engine.</li>
+                    <li>A clip whose speech went mostly unrecognized (a Polish clip transcribed as English) gets a notice in the footage header with one button: Detect Language and Transcribe Again.</li>
+                    <li>Fixes from a full code review: renaming a project to a name another project already uses no longer replaces that project (PowerCut picks "Name 2"); a save that fails (a read-only or unmounted destination) says so once instead of silently losing the session, Save As moves the project home only once the write succeeds, and Open Project saves the outgoing project first; script decisions are saved for every clip, not only clips with speaker detection, so SCRIPT badges survive reopening; accepting a script review item removes it from the queue; manual cuts keep their exact bounds through the Auto Edit Pass; 119.88 and 47.952 fps footage and Sony drop-frame timecode land angles where they belong; a damaged project file opens instead of crashing; export from the File menu follows the trial and license like the Export bar, and the trial state refreshes when the app comes to the front; a control character in a marker or project name no longer breaks the FCPXML or the transcript document.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.1b1-59/PowerCutBeta.dmg"
+                sparkle:edSignature="n1M2ATw4xFtoqTusdAfNLR6+Sp5AL05jE6TwCejPLw6Hf5AJTxKlu+WhRKQ2cxSKU5SlVDCdCCA24+yvaQKmCw=="
+                length="16581991"
+                type="application/octet-stream" />
+        </item>
+        <item>
+            <title>PowerCut 1.0.7</title>
+            <pubDate>Wed, 09 Sep 2026 00:08:38 -0400</pubDate>
+            <sparkle:version>58</sparkle:version>
+            <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Looks right. A yellow word (the two engines disagree) that reads correctly no longer needs the editor: press Y on it, or on a selection, and it is confirmed and the selection jumps to the next yellow word, so a proofreading pass is Y, Y, Y. Looks Right is also in the word menu and in the correction popover; Edit > Next Uncertain Word (Option-Command-Right) steps without confirming; a confirmed word stays settled through later engine checks; the Assistant Editor + gets a matching confirm_words tool.</li>
+                    <li>Angles sync by audio by default. A new angle listens as soon as its file is read and matches the waveforms on its own; when the audio cannot be matched, timecode takes over if both files carry it, and otherwise the angle gets a manual offset of 0 s you can adjust, so a multicam is never held up. Timecode and a manual offset stay one click away in the angle menu, and Create Multicam rows sync by audio as you choose their files.</li>
+                    <li>A video style now sets the cleanup checkboxes on the start page. Podcast / Interview starts with repeated takes, production asides and context judgment off, at Light; Documentary keeps asides on; every other style starts all three on at Natural. Silences and filler words stay your choice. In an open project, switching style leaves your checkboxes alone; the Cleanup card's new Style defaults button applies them on request, one undo step away.</li>
+                    <li>With repeated takes off, production asides still get their own first pass on import.</li>
+                    <li>The Footage list has a Sort menu: by name (Finder order, Clip 2 before Clip 10), by recording time, or reversed. One undo step; the story follows the clip order.</li>
+                    <li>Right-click menus explain themselves: every item has a tooltip, and the Picture submenu is now Video Angle.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.0.7/PowerCut.dmg"
+                length="16599074"
+                type="application/octet-stream"
+                sparkle:edSignature="FZDrJNW6jt+rAdKaufPAV6UJgfNFYZsnuPCiJef+i5zGF11n2Q9b/7rl+1mPds8L6I+Exc23aFQ2RunsfSWbBQ=="/>
+        </item>
+        <item>
             <title>PowerCut Beta 1.1b1 (57)</title>
             <pubDate>Tue, 08 Sep 2026 11:11:51 -0400</pubDate>
             <sparkle:channel>beta</sparkle:channel>
