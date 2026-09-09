@@ -7,6 +7,27 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut Beta 1.1b1 (61)</title>
+            <pubDate>Wed, 09 Sep 2026 17:36:11 -0400</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>61</sparkle:version>
+            <sparkle:shortVersionString>1.1b1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Captions in WebVTT as well as SRT: pick the format in the export sheet (remembered), the same cues either way. WebVTT is the web standard for HTML5 players, HLS streaming, YouTube and Vimeo.</li>
+                    <li>Captions inside the Final Cut Pro XML: the exported project now carries a caption lane, so Final Cut shows the captions the moment the XML is imported, no separate file, timed to the edit and tagged with each clip's transcript language. The Captions in XML checkbox next to the export target turns it off.</li>
+                    <li>Voice Isolation per clip, for noisy footage: outdoors, wind, a crowd. Right-click a clip and choose Voice Isolation Low, Medium or High, and PowerCut runs Apple's Voice Isolation on the audio it listens to before transcribing and finding pauses. Playback and the export keep the original audio. The clip re-runs; the transcript and edits for each level are remembered, so switching back is instant.</li>
+                    <li>Under the hood, one resolver now prepares the audio PowerCut listens to and every pass waits for it: the verbatim filler check, Transcribe Now, translation and export translation no longer read the whole file for a clip on another audio track or a mixed multicam dialogue while that audio is still being prepared after an undo, a track switch or a project open. Voice identification always listens to the recorded dialogue, and choosing Angles Only or Voice Isolation no longer counts as confirming the microphone pick.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.1b1-61/PowerCutBeta.dmg"
+                sparkle:edSignature="D2hYIxZ0PapOAv2ZBR+JzB6XucKot45ayL2omQopUDnxhwZCE86vQ5/7tnZkUNkpRwIVsR0Zn88KvqoyF71dCg=="
+                length="16652731"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PowerCut Beta 1.1b1 (59)</title>
             <pubDate>Tue, 08 Sep 2026 21:13:43 -0400</pubDate>
             <sparkle:channel>beta</sparkle:channel>
