@@ -7,6 +7,25 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut Beta 1.1b1 (63)</title>
+            <pubDate>Thu, 10 Sep 2026 10:59:34 -0400</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>63</sparkle:version>
+            <sparkle:shortVersionString>1.1b1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Voice Isolation now works on Sony footage: the 24-bit PCM audio inside XAVC S MP4 files could not be opened by the isolator, so those clips failed the moment isolation was turned on. PowerCut now decodes that audio the way the player and the transcriber do and isolates from the decoded copy, timed to the clip to the sample.</li>
+                    <li>A crash in the delay measurement that lines the isolated audio up with the original, hit when the two differed in length by a few frames, is fixed.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.1b1-63/PowerCutBeta.dmg"
+                sparkle:edSignature="3NhWjP4OrAfIE/B3uJO0qnGqfEOE/XUBEgBMKdVywvXM3+9Anhr5Bt5GKvTT1IXB027KCzRH+Rq4tAYs+hYLBA=="
+                length="16722567"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PowerCut 1.0.8</title>
             <pubDate>Thu, 10 Sep 2026 10:59:34 -0400</pubDate>
             <sparkle:version>61</sparkle:version>
