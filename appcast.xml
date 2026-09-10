@@ -7,6 +7,27 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut 1.0.8</title>
+            <pubDate>Thu, 10 Sep 2026 10:59:34 -0400</pubDate>
+            <sparkle:version>61</sparkle:version>
+            <sparkle:shortVersionString>1.0.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>A new New Project page, in four steps: about the shoot (script, Multiple speakers, language), the style with its first-pass checkboxes right under it, the footage as a list you can drag into order or sort with a Noisy checkbox per clip (and one for all), and one button. Clips are analyzed and transcribed the moment they arrive, in the background, so the first ones are done by the time you have chosen a style; Analyze and transcribe applies the style, the checkboxes and the script to every clip at once and opens the editor. A project quit mid-setup reopens on the page.</li>
+                    <li>Captions in WebVTT as well as SRT: pick the format in the export sheet (remembered), the same cues either way. WebVTT is the web standard for HTML5 players, HLS streaming, YouTube and Vimeo.</li>
+                    <li>Captions inside the Final Cut Pro XML: the exported project now carries a caption lane, so Final Cut shows the captions the moment the XML is imported, no separate file, timed to the edit and tagged with each clip's transcript language. The Captions in XML checkbox next to the export target turns it off.</li>
+                    <li>Voice Isolation per clip, for noisy footage: outdoors, wind, a crowd. Right-click a clip and choose Voice Isolation Low, Medium or High, and PowerCut runs Apple's Voice Isolation on the audio it listens to before transcribing and finding pauses. Playback and the export keep the original audio. The clip re-runs; the transcript and edits for each level are remembered, so switching back is instant.</li>
+                    <li>Under the hood, one resolver now prepares the audio PowerCut listens to and every pass waits for it: the verbatim filler check, Transcribe Now, translation and export translation no longer read the whole file for a clip on another audio track or a mixed multicam dialogue while that audio is still being prepared after an undo, a track switch or a project open. Voice identification always listens to the recorded dialogue, and choosing Angles Only or Voice Isolation no longer counts as confirming the microphone pick.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.0.8/PowerCut.dmg"
+                length="16734906"
+                type="application/octet-stream"
+                sparkle:edSignature="v4Csaeghz2BiFqp7cQcv1mBUN6XHydG6U+Irgeafi9Ck+/jXJcKq1CezBhDPoj9pp41YQeplc1lmfXJfcgL9Cg=="/>
+        </item>
+        <item>
             <title>PowerCut Beta 1.1b1 (62)</title>
             <pubDate>Wed, 09 Sep 2026 22:56:45 -0400</pubDate>
             <sparkle:channel>beta</sparkle:channel>
