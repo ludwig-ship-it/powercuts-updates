@@ -7,6 +7,26 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut Beta 1.1b1 (62)</title>
+            <pubDate>Wed, 09 Sep 2026 22:56:45 -0400</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>62</sparkle:version>
+            <sparkle:shortVersionString>1.1b1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>A new New Project page, in four steps: about the shoot (script, Multiple speakers, language), the style with its first-pass checkboxes right under it, the footage as a list you can drag into order or sort with a Noisy checkbox per clip (and one for all), and one button. Clips are analyzed and transcribed the moment they arrive, in the background, so the first ones are done by the time you have chosen a style; Analyze and transcribe applies the style, the checkboxes and the script to every clip at once and opens the editor. A project quit mid-setup reopens on the page.</li>
+                    <li>Captions in WebVTT as well as SRT, and a caption lane inside the Final Cut Pro XML (beta 61).</li>
+                    <li>Voice Isolation per clip, and the analysis-audio resolver under every pass (beta 60).</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.1b1-62/PowerCutBeta.dmg"
+                sparkle:edSignature="ZPuE1JoQ6sO7bkMxMIQ3BLNQ4gfSAjMIUwNjZlmic2hVBsiPj6SYH8fmjM2PnUs0ygCGeN83ZJdfmslLSi0QAg=="
+                length="16715631"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PowerCut Beta 1.1b1 (61)</title>
             <pubDate>Wed, 09 Sep 2026 17:36:11 -0400</pubDate>
             <sparkle:channel>beta</sparkle:channel>
