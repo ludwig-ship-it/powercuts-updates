@@ -7,6 +7,29 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut Beta 1.1b1 (65)</title>
+            <pubDate>Fri, 11 Sep 2026 12:36:29 -0400</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>65</sparkle:version>
+            <sparkle:shortVersionString>1.1b1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Import an edited multicam as your starting cut (Beta). When a Final Cut XML carries a cut-down multicam, the import summary offers Start from the timeline's edit: PowerCut transcribes the whole clip, keeps your pieces in the timeline's order, moves included, and strikes everything you left out, so any outtake is one Restore away. PowerCut's own cleanup rules start off for that project; tick one to add its cuts. Export gives you a new multicam with your further edits.</li>
+                    <li>The import summary now says Import &amp; Transcribe or Cancel, and Cancel really cancels. Its Transcribe and Hear checkboxes line up under their headers.</li>
+                    <li>PowerCut no longer opens every time Claude Desktop starts. The assistant connection answers Claude's handshake on its own and opens PowerCut only when Claude calls a tool. Press Connect Claude Desktop once in this build so Claude uses the new connection.</li>
+                    <li>Multicam Angles: Angle 1 is now the first row of the angle table, its name field lined up over the other angles.</li>
+                    <li>A launch crash on Macs with performance logging switched on is fixed. Performance logging is off by default, so most people never saw it.</li>
+                    <li>Copy tidied throughout: dash-joined sentences in tips and messages are plain sentences now.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.1b1-65/PowerCutBeta.dmg"
+                sparkle:edSignature="APo100aDghbmh0CGKCqdD8itzbMZQXLDNpomdgPTYUZfmCzJIJpjX6RzAuGnzPH3xwEFckphz9CXQSrJWdgWDg=="
+                length="16798771"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PowerCut Beta 1.1b1 (63)</title>
             <pubDate>Thu, 10 Sep 2026 10:59:34 -0400</pubDate>
             <sparkle:channel>beta</sparkle:channel>
