@@ -7,6 +7,24 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut Beta 1.1b1 (66)</title>
+            <pubDate>Fri, 11 Sep 2026 15:31:11 -0400</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>66</sparkle:version>
+            <sparkle:shortVersionString>1.1b1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Greek (Beta). Whisper carries the transcript, the filler-word pass runs, and the Greek question mark, the semicolon, now ends a sentence for pacing and for script lines. Write Greek scripts in normal lowercase Greek; an all-caps script drops accents and the final sigma and can fail to match.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.1b1-66/PowerCutBeta.dmg"
+                sparkle:edSignature="psbB8v4I8bGFF4NjAwhlTybUdFMvAKso/TccuZPDzu2R6P+br5aGWobw+hOpOFrpkEltqV4sIvc1kUsFh9q0BQ=="
+                length="16801930"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PowerCut 1.0.9</title>
             <pubDate>Fri, 11 Sep 2026 16:21:31 -0400</pubDate>
             <sparkle:version>65</sparkle:version>
