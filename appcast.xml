@@ -7,6 +7,43 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut Beta 1.1b1 (68)</title>
+            <pubDate>Sat, 12 Sep 2026 12:09:41 -0400</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>68</sparkle:version>
+            <sparkle:shortVersionString>1.1b1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Add Footage now takes a Final Cut Pro or Resolve XML as well as video and audio, and says so. A plain .xml that is really an FCPXML imports too; a Final Cut Pro 7 XML or any other .xml gets an explanation instead of landing as an unsupported clip.</li>
+                    <li>When PowerCut hits an internal error it now writes what went wrong to its own log, and Report a Problem attaches that line to the mail, so a report can be answered without a trip to Console.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.1b1-68/PowerCutBeta.dmg"
+                sparkle:edSignature="R5MJqjNAdns1EonSwhZy7mKegI4m4/m16bOJ/clDNa5wT5OGYwHqg/KYrd9aAYKhwLBVExQ6f1nBtnkwGh8DCQ=="
+                length="16813860"
+                type="application/octet-stream" />
+        </item>
+        <item>
+            <title>PowerCut 1.0.11</title>
+            <pubDate>Sat, 12 Sep 2026 12:09:41 -0400</pubDate>
+            <sparkle:version>67</sparkle:version>
+            <sparkle:shortVersionString>1.0.11</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Add Footage now takes a Final Cut Pro or Resolve XML as well as video and audio, and says so. A plain .xml that is really an FCPXML imports too; a Final Cut Pro 7 XML or any other .xml gets an explanation instead of landing as an unsupported clip.</li>
+                    <li>When PowerCut hits an internal error it now writes what went wrong to its own log, and Report a Problem attaches that line to the mail, so a report can be answered without a trip to Console.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.0.11/PowerCut.dmg"
+                length="16827684"
+                type="application/octet-stream"
+                sparkle:edSignature="tNegY8cVPq1e48m7wQNJYv/gSExzAx2NxXc87KNv44vxcETHG/NULUD32i3uo1OoQNzxE8flPnY+fqm2a94gAg=="/>
+        </item>
+        <item>
             <title>PowerCut Beta 1.1b1 (67)</title>
             <pubDate>Fri, 11 Sep 2026 18:35:00 -0400</pubDate>
             <sparkle:channel>beta</sparkle:channel>
