@@ -7,6 +7,55 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut Beta 1.1b1 (69)</title>
+            <pubDate>Thu, 17 Sep 2026 14:17:40 -0400</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>69</sparkle:version>
+            <sparkle:shortVersionString>1.1b1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Audio sync now works with cameras that record uncompressed PCM sound in a big-endian byte order (many Sony cameras) and with AIFF files. PowerCut was reading that audio the wrong way round, so such an angle never matched and always fell back to a manual offset. Thanks to Bernard for the sample files.</li>
+                    <li>A crossed-out word could still play when it directly followed a kept word with no breath between them, and a short kept word right after a struck section could be swallowed. Both edges are fixed. Thanks to Dylan for the project.</li>
+                    <li>Create Multicam Clip lists every audio track of every file with three boxes: Transcribe (the tracks the transcript is made from), Hear (heard while you edit, never transcribed) and Sync (the one track the audio match listens to). PowerCut listens to each track and ticks the one that sounds like speech. The main clip can now choose its tracks too, instead of reading all of them together.</li>
+                    <li>Each angle shows how it synced, Listen Again is now Sync Now, and the new Check Sync button plays a few seconds with the main clip in your left ear and the angle in your right: one voice means in sync, an echo means an offset. Headphones help.</li>
+                    <li>On the New Project page a multicam now reads as one (its name, its angles, its main clip), and a double-click opens it again to change angles, names, tracks or sync. Only a change to the audio the transcript reads transcribes again.</li>
+                    <li>The Hear boxes now decide what plays for a clip made in Create Multicam Clip or confirmed in the XML import box; the Other channels in preview slider no longer plays that clip's unticked tracks.</li>
+                    <li>The New Project page has an optional Project name field, and every option on that page and in Create Multicam Clip explains itself when you hover over it.</li>
+                    <li>A multicam whose main clip has no audio is refused with the way out (make the file with the sound the main clip) instead of being created and never transcribing.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.1b1-69/PowerCutBeta.dmg"
+                sparkle:edSignature="+1k5FPPE0svQ2+OtivuAO99SVBfZenGTA5PCXs+L0KwfwuI5+aWnvOwcbu36xeXKobr1+PB/NxxKeHD71z23CA=="
+                length="16915089"
+                type="application/octet-stream" />
+        </item>
+        <item>
+            <title>PowerCut 1.0.12</title>
+            <pubDate>Thu, 17 Sep 2026 14:17:40 -0400</pubDate>
+            <sparkle:version>68</sparkle:version>
+            <sparkle:shortVersionString>1.0.12</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Audio sync now works with cameras that record uncompressed PCM sound in a big-endian byte order (many Sony cameras) and with AIFF files. PowerCut was reading that audio the wrong way round, so such an angle never matched and always fell back to a manual offset. Thanks to Bernard for the sample files.</li>
+                    <li>A crossed-out word could still play when it directly followed a kept word with no breath between them, and a short kept word right after a struck section could be swallowed. Both edges are fixed. Thanks to Dylan for the project.</li>
+                    <li>Create Multicam Clip lists every audio track of every file with three boxes: Transcribe (the tracks the transcript is made from), Hear (heard while you edit, never transcribed) and Sync (the one track the audio match listens to). PowerCut listens to each track and ticks the one that sounds like speech. The main clip can now choose its tracks too, instead of reading all of them together.</li>
+                    <li>Each angle shows how it synced, Listen Again is now Sync Now, and the new Check Sync button plays a few seconds with the main clip in your left ear and the angle in your right: one voice means in sync, an echo means an offset. Headphones help.</li>
+                    <li>On the New Project page a multicam now reads as one (its name, its angles, its main clip), and a double-click opens it again to change angles, names, tracks or sync. Only a change to the audio the transcript reads transcribes again.</li>
+                    <li>The Hear boxes now decide what plays for a clip made in Create Multicam Clip or confirmed in the XML import box; the Other channels in preview slider no longer plays that clip's unticked tracks.</li>
+                    <li>The New Project page has an optional Project name field, and every option on that page and in Create Multicam Clip explains itself when you hover over it.</li>
+                    <li>A multicam whose main clip has no audio is refused with the way out (make the file with the sound the main clip) instead of being created and never transcribing.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.0.12/PowerCut.dmg"
+                sparkle:edSignature="+Y04vBhYaM5dQWEV4TKexY3PVALUgV3UWsk0UJwMhJjqKzjc1hPAk8OvB89YuyfhvVhbc9AZeafGTYxmjTzhAA=="
+                length="16890678"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PowerCut Beta 1.1b1 (68)</title>
             <pubDate>Sat, 12 Sep 2026 12:09:41 -0400</pubDate>
             <sparkle:channel>beta</sparkle:channel>
