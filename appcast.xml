@@ -7,6 +7,45 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut Beta 1.1b1 (72)</title>
+            <pubDate>Fri, 18 Sep 2026 16:32:43 -0400</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>72</sparkle:version>
+            <sparkle:shortVersionString>1.1b1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>A cut made by hand now shows in the transcript. Words removed by deleting or trimming on the timeline, or by cutting a range, read as cut with a red line through them, so a paragraph no longer looks untouched while the timeline skips it.</li>
+                    <li>Right-click such a word and choose Restore This Cut to bring the material back.</li>
+                    <li>The first and last word of a hand-made cut read as cut too, including a word that sits partly outside its clip.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.1b1-72/PowerCutBeta.dmg"
+                sparkle:edSignature="4Y+yDmhA3v/4NSIUPfI9S1CSE/Y1SLyvcO6mqH5/jESkDWisR9z7+V285cyJf/V3RxETgesRPsMBJWWIsbkhCw=="
+                length="17022084"
+                type="application/octet-stream" />
+        </item>
+        <item>
+            <title>PowerCut 1.0.15</title>
+            <pubDate>Fri, 18 Sep 2026 16:32:43 -0400</pubDate>
+            <sparkle:version>71</sparkle:version>
+            <sparkle:shortVersionString>1.0.15</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>A cut made by hand now shows in the transcript. Words removed by deleting or trimming on the timeline, or by cutting a range, read as cut with a red line through them, so a paragraph no longer looks untouched while the timeline skips it.</li>
+                    <li>Right-click such a word and choose Restore This Cut to bring the material back.</li>
+                    <li>The first and last word of a hand-made cut read as cut too, including a word that sits partly outside its clip.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.0.15/PowerCut.dmg"
+                sparkle:edSignature="WOqIBVUTO3LEFMkiXwJqv/HHMrbGw5MbOLLZcMB2JGvn46KbCkCv9atCOgVIm1WJaFQOeyk9Y1Kulgw4lOvlDQ=="
+                length="17026418"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PowerCut Beta 1.1b1 (71)</title>
             <pubDate>Fri, 18 Sep 2026 15:05:13 -0400</pubDate>
             <sparkle:channel>beta</sparkle:channel>
