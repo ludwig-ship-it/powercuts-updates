@@ -7,6 +7,65 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut Beta 1.1b1 (70)</title>
+            <pubDate>Fri, 18 Sep 2026 13:16:48 -0400</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>70</sparkle:version>
+            <sparkle:shortVersionString>1.1b1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>The timeline is rebuilt for speed. On a long interview an edit used to freeze the app for about a second; it is now about a tenth of that, and the timeline shows the edit at once instead of a moment later. The timeline also stays exactly where you are after a trim, strike or undo; it follows only while playing, or when you click a word in the transcript.</li>
+                    <li>Frame-accurate trimming. A dragged edge lands on a whole frame of the clip, a yellow readout beside it counts the frames as you drag, and the smallest edit is now one frame (very short trims at 50 and 60 fps used to be ignored).</li>
+                    <li>New keys, the Final Cut way: Left and Right step one frame, with Shift ten frames, and Option+Left or Right jumps five seconds (what the plain arrows did before). Up and Down jump to the previous and next edit point; Home and End go to the start and the end.</li>
+                    <li>The timeline readout is timecode with frames (drop-frame for 29.97 and 59.94), and the ruler shows a tick per frame when you zoom in.</li>
+                    <li>A perfect cut between two clips (nothing missing between them) shows as a dashed joint; right-click to join the clips back into one.</li>
+                    <li>Pulling a clip's edge past the next clip now rolls the edit: the clip grows, the neighbour gives way, and nothing plays twice. Hold Option to extend over the neighbour instead; material that then plays in two clips is hatched in both.</li>
+                    <li>Each timeline clip of a multicam says which angle it shows, numbered and coloured like the angle buttons under the player.</li>
+                    <li>Switch angles with the number keys 1 to 9, while playing or paused, and choose how far a switch runs: to the next switch, the next cut, or the next speaker. Timeline clips have a Video Angle menu too.</li>
+                    <li>The transcript draws much faster on long projects, and resizing the window is smooth, with everything reflowing as you drag. The window also fits small laptop screens and comes back on screen after a monitor is unplugged.</li>
+                    <li>Fit now fits the whole story at any length, and a plain mouse wheel scrolls the timeline sideways.</li>
+                    <li>Premiere Pro: the XML now carries every angle on its own stacked tracks, synced, with the angle you chose enabled, and no longer imports as D1/DV PAL with a 109.4% scale (square pixels are written for every file and sequence).</li>
+                    <li>Transcript export can stamp every sentence, or every 5, 8 or 12 seconds, as well as every paragraph.</li>
+                    <li>The tour has two new pages, for Add Footage and Create Multicam.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.1b1-70/PowerCutBeta.dmg"
+                sparkle:edSignature="XSEZ7FCWn7k9MPvdqZ8iKYGSL0MUnkg72rs/n9E732dVDxUbcATMh8VHntPIo8aHa0kH/VM1KHLrV5SwB5S8Ag=="
+                length="16979785"
+                type="application/octet-stream" />
+        </item>
+        <item>
+            <title>PowerCut 1.0.13</title>
+            <pubDate>Fri, 18 Sep 2026 13:16:48 -0400</pubDate>
+            <sparkle:version>69</sparkle:version>
+            <sparkle:shortVersionString>1.0.13</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>The timeline is rebuilt for speed. On a long interview an edit used to freeze the app for about a second; it is now about a tenth of that, and the timeline shows the edit at once instead of a moment later. The timeline also stays exactly where you are after a trim, strike or undo; it follows only while playing, or when you click a word in the transcript.</li>
+                    <li>Frame-accurate trimming. A dragged edge lands on a whole frame of the clip, a yellow readout beside it counts the frames as you drag, and the smallest edit is now one frame (very short trims at 50 and 60 fps used to be ignored).</li>
+                    <li>New keys, the Final Cut way: Left and Right step one frame, with Shift ten frames, and Option+Left or Right jumps five seconds (what the plain arrows did before). Up and Down jump to the previous and next edit point; Home and End go to the start and the end.</li>
+                    <li>The timeline readout is timecode with frames (drop-frame for 29.97 and 59.94), and the ruler shows a tick per frame when you zoom in.</li>
+                    <li>A perfect cut between two clips (nothing missing between them) shows as a dashed joint; right-click to join the clips back into one.</li>
+                    <li>Pulling a clip's edge past the next clip now rolls the edit: the clip grows, the neighbour gives way, and nothing plays twice. Hold Option to extend over the neighbour instead; material that then plays in two clips is hatched in both.</li>
+                    <li>Each timeline clip of a multicam says which angle it shows, numbered and coloured like the angle buttons under the player.</li>
+                    <li>Switch angles with the number keys 1 to 9, while playing or paused, and choose how far a switch runs: to the next switch, the next cut, or the next speaker. Timeline clips have a Video Angle menu too.</li>
+                    <li>The transcript draws much faster on long projects, and resizing the window is smooth, with everything reflowing as you drag. The window also fits small laptop screens and comes back on screen after a monitor is unplugged.</li>
+                    <li>Fit now fits the whole story at any length, and a plain mouse wheel scrolls the timeline sideways.</li>
+                    <li>Premiere Pro: the XML now carries every angle on its own stacked tracks, synced, with the angle you chose enabled, and no longer imports as D1/DV PAL with a 109.4% scale (square pixels are written for every file and sequence).</li>
+                    <li>Transcript export can stamp every sentence, or every 5, 8 or 12 seconds, as well as every paragraph.</li>
+                    <li>The tour has two new pages, for Add Footage and Create Multicam.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.0.13/PowerCut.dmg"
+                sparkle:edSignature="zBdWpXmIY2s6ugzxyeE4gJXS1q35aLQG2/mn+VakW8lc1ICALTg/y0OyaC2tb9Hz8iiBnO/xHmy5ubdd+8hzBg=="
+                length="16981547"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PowerCut Beta 1.1b1 (69)</title>
             <pubDate>Thu, 17 Sep 2026 14:17:40 -0400</pubDate>
             <sparkle:channel>beta</sparkle:channel>
