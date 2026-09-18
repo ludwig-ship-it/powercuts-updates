@@ -7,6 +7,49 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut Beta 1.1b1 (71)</title>
+            <pubDate>Fri, 18 Sep 2026 15:05:13 -0400</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>71</sparkle:version>
+            <sparkle:shortVersionString>1.1b1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Fixed: after scrolling the transcript away and back, a paragraph could lose the karaoke highlight and the selection pill, and clicks on its words did nothing. This came in with 1.0.13.</li>
+                    <li>Fixed: clicks on the timeline, its scroll bar, right-clicks and scrolling could be swallowed by the transcript, depending on where the transcript was scrolled. The timeline now always gets what is aimed at it.</li>
+                    <li>A plain click on a timeline clip always selects it, even with the Range tool on. The Range tool only changes what a drag does.</li>
+                    <li>A repeated section is edited on its own. After you Option-pull a clip over its neighbour, the shared part plays in both clips; deleting, trimming or striking it in one clip no longer touches the other. The pulled copy starts as a true copy, and from then on each is edited separately, on the timeline and in its own transcript paragraph. Material that plays once behaves as before.</li>
+                    <li>Option-pulling now also works over another piece of the same clip: the clip is split there first, then grows over it.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.1b1-71/PowerCutBeta.dmg"
+                sparkle:edSignature="gpto6JHN06ftXLGJN5538kJCsdqL5uph/NLd/X2EQmz+u+GYiKPzyS2O7ig6nk8xJeSpGtdUMlbkimcmtm4/Aw=="
+                length="17017058"
+                type="application/octet-stream" />
+        </item>
+        <item>
+            <title>PowerCut 1.0.14</title>
+            <pubDate>Fri, 18 Sep 2026 15:05:13 -0400</pubDate>
+            <sparkle:version>70</sparkle:version>
+            <sparkle:shortVersionString>1.0.14</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Fixed: after scrolling the transcript away and back, a paragraph could lose the karaoke highlight and the selection pill, and clicks on its words did nothing. This came in with 1.0.13.</li>
+                    <li>Fixed: clicks on the timeline, its scroll bar, right-clicks and scrolling could be swallowed by the transcript, depending on where the transcript was scrolled. The timeline now always gets what is aimed at it.</li>
+                    <li>A plain click on a timeline clip always selects it, even with the Range tool on. The Range tool only changes what a drag does.</li>
+                    <li>A repeated section is edited on its own. After you Option-pull a clip over its neighbour, the shared part plays in both clips; deleting, trimming or striking it in one clip no longer touches the other. The pulled copy starts as a true copy, and from then on each is edited separately, on the timeline and in its own transcript paragraph. Material that plays once behaves as before.</li>
+                    <li>Option-pulling now also works over another piece of the same clip: the clip is split there first, then grows over it.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.0.14/PowerCut.dmg"
+                sparkle:edSignature="3jsm2gZAD6rcqxh6vLvsMy7X+o6fW+iWh5XqVNsHj/eknmWsLJhxIE2NlGklb3DxPh/TgW06Em4wwNphdsbuDQ=="
+                length="17025454"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PowerCut Beta 1.1b1 (70)</title>
             <pubDate>Fri, 18 Sep 2026 13:16:48 -0400</pubDate>
             <sparkle:channel>beta</sparkle:channel>
