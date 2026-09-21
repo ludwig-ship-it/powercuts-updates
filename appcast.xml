@@ -7,6 +7,41 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut Beta 1.1b1 (74)</title>
+            <pubDate>Mon, 21 Sep 2026 17:10:04 -0400</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>74</sparkle:version>
+            <sparkle:shortVersionString>1.1b1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>PowerCut now recognizes the new One Year license: every update released within 12 months of purchase, and the app keeps working at the last version you received. Settings shows the plan. Existing licenses are unchanged and stay Lifetime.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.1b1-74/PowerCutBeta.dmg"
+                sparkle:edSignature="+M4yPLcEkWhLOHJITqTdve9hh78LJbGE3xRLWztitgS24ML4Kww60goHt6v3TUdEvauInnsVGI8Jveu4ew1AAA=="
+                length="17088023"
+                type="application/octet-stream" />
+        </item>
+        <item>
+            <title>PowerCut 1.0.17</title>
+            <pubDate>Mon, 21 Sep 2026 17:10:04 -0400</pubDate>
+            <sparkle:version>73</sparkle:version>
+            <sparkle:shortVersionString>1.0.17</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>PowerCut now recognizes the new One Year license: every update released within 12 months of purchase, and the app keeps working at the last version you received. Settings shows the plan. Existing licenses are unchanged and stay Lifetime.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.0.17/PowerCut.dmg"
+                sparkle:edSignature="ABTz53Uwi01lffjozScidbmLr4UWUxTLunLhzMXyaZKsguz75P79ep2uLdI2vnlsiQ5v8Wglp81GUoWdOflBAw=="
+                length="17086594"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PowerCut Beta 1.1b1 (73)</title>
             <pubDate>Mon, 21 Sep 2026 15:48:50 -0400</pubDate>
             <sparkle:channel>beta</sparkle:channel>
