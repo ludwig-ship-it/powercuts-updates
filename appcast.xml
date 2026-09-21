@@ -7,6 +7,47 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut Beta 1.1b1 (75)</title>
+            <pubDate>Mon, 21 Sep 2026 19:06:11 -0400</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>75</sparkle:version>
+            <sparkle:shortVersionString>1.1b1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>The project menu beside the project name now has New Project, Open Project and Save Project As, above your recent projects. It also shows one arrow instead of two.</li>
+                    <li>Premiere export: the export bar now says that angles you did not switch to arrive disabled on their stacked tracks. In Premiere, right-click such a clip and choose Enable to use it.</li>
+                    <li>Manage License has Remove License from This Mac, for moving your license to another Mac. Entering a key of another plan asks before it replaces the license you have, and an unknown key says so plainly.</li>
+                    <li>Problem reports carry more detail about where an error came from.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.1b1-75/PowerCutBeta.dmg"
+                sparkle:edSignature="HQpYU+1zL5bV6v0FASLPSyTh/Xv8C4tSjKyabT6kRXRn9T22jh9uT6q2r+oN03+JxWvXDl86Z1FFUFI8ZlaaDA=="
+                length="17105009"
+                type="application/octet-stream" />
+        </item>
+        <item>
+            <title>PowerCut 1.0.18</title>
+            <pubDate>Mon, 21 Sep 2026 19:06:11 -0400</pubDate>
+            <sparkle:version>74</sparkle:version>
+            <sparkle:shortVersionString>1.0.18</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>The project menu beside the project name now has New Project, Open Project and Save Project As, above your recent projects. It also shows one arrow instead of two.</li>
+                    <li>Premiere export: the export bar now says that angles you did not switch to arrive disabled on their stacked tracks. In Premiere, right-click such a clip and choose Enable to use it.</li>
+                    <li>Manage License has Remove License from This Mac, for moving your license to another Mac. Entering a key of another plan asks before it replaces the license you have, and an unknown key says so plainly.</li>
+                    <li>Problem reports carry more detail about where an error came from.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.0.18/PowerCut.dmg"
+                sparkle:edSignature="rTbDNtNf/ZzegQqQ+fMUhV0ysad6FKsimUHKHexDswE6GshI0inZpbG5iyXftEAiW+nZIfvoCszqzh571BaoBw=="
+                length="17100121"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PowerCut Beta 1.1b1 (74)</title>
             <pubDate>Mon, 21 Sep 2026 17:10:04 -0400</pubDate>
             <sparkle:channel>beta</sparkle:channel>
