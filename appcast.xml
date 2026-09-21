@@ -7,6 +7,49 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut Beta 1.1b1 (73)</title>
+            <pubDate>Mon, 21 Sep 2026 15:48:50 -0400</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>73</sparkle:version>
+            <sparkle:shortVersionString>1.1b1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>RED RAW (R3D), beta. PowerCut now imports RED clips and cuts them by their sound: add the .R3D file or its .RDC folder, and the clip transcribes and cuts like any other. The player shows no picture for these clips; the exported XML references your original R3D at its real size, frame rate and timecode. If the clips arrive offline in your NLE, relink them to the .RDC folder. Not yet: R3D as a secondary multicam angle.</li>
+                    <li>Hide the side panels. The Footage panel and the player and settings column can each be put away to give the transcript and timeline the whole window: View menu, ⌘1 and ⌘2, or the two new buttons at the right of the title bar. While the Footage panel is hidden, analysis and Auto Edit progress show above the transcript.</li>
+                    <li>Settings is now four tabs (General, Media, Assistant, Support). Each is as tall as its content and scrolls on a small screen. The old single page could grow taller than the display.</li>
+                    <li>Assistant Editor +: a Connect Cursor button beside Claude Desktop and Codex. It adds PowerCut to Cursor's global MCP file after the same privacy confirmation.</li>
+                    <li>Help, Keyboard Shortcuts now lists the frame keys, edit point keys, angle number keys and the Option drag.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.1b1-73/PowerCutBeta.dmg"
+                sparkle:edSignature="wQ4+bVwiCc2N8jNPPVkF0YpVfncTeY4ExXanrZnAFVWsFZ+Cz33YvFBjSGToXRNFawWM5sfLnPH+Ey4fFYnaCg=="
+                length="17078346"
+                type="application/octet-stream" />
+        </item>
+        <item>
+            <title>PowerCut 1.0.16</title>
+            <pubDate>Mon, 21 Sep 2026 15:48:50 -0400</pubDate>
+            <sparkle:version>72</sparkle:version>
+            <sparkle:shortVersionString>1.0.16</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>RED RAW (R3D), beta. PowerCut now imports RED clips and cuts them by their sound: add the .R3D file or its .RDC folder, and the clip transcribes and cuts like any other. The player shows no picture for these clips; the exported XML references your original R3D at its real size, frame rate and timecode. If the clips arrive offline in your NLE, relink them to the .RDC folder. Not yet: R3D as a secondary multicam angle.</li>
+                    <li>Hide the side panels. The Footage panel and the player and settings column can each be put away to give the transcript and timeline the whole window: View menu, ⌘1 and ⌘2, or the two new buttons at the right of the title bar. While the Footage panel is hidden, analysis and Auto Edit progress show above the transcript.</li>
+                    <li>Settings is now four tabs (General, Media, Assistant, Support). Each is as tall as its content and scrolls on a small screen. The old single page could grow taller than the display.</li>
+                    <li>Assistant Editor +: a Connect Cursor button beside Claude Desktop and Codex. It adds PowerCut to Cursor's global MCP file after the same privacy confirmation.</li>
+                    <li>Help, Keyboard Shortcuts now lists the frame keys, edit point keys, angle number keys and the Option drag.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.0.16/PowerCut.dmg"
+                sparkle:edSignature="OLdpqMnTn34+KXb6OJRYLZOvP10BkYMLXW3MWs0MnSPWxblYK9qJ01jV7pDeaHUlt+YY3Wp4J8nOj9dwpSQgBw=="
+                length="17078401"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PowerCut Beta 1.1b1 (72)</title>
             <pubDate>Fri, 18 Sep 2026 16:32:43 -0400</pubDate>
             <sparkle:channel>beta</sparkle:channel>
