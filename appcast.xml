@@ -7,6 +7,43 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut Beta 1.1b1 (76)</title>
+            <pubDate>Tue, 22 Sep 2026 12:00:59 -0400</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>76</sparkle:version>
+            <sparkle:shortVersionString>1.1b1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Markers on struck words now also appear on the timeline in Final Cut Pro, DaVinci Resolve and Premiere Pro, at the nearest kept frame, instead of only inside the multicam or compound clip.</li>
+                    <li>The Zoom menu on the selection bar offers Remove Zoom when a zoom already covers the selected words.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.1b1-76/PowerCutBeta.dmg"
+                sparkle:edSignature="EloxRDVs7fNJUNh5vzMPTNPFTW8Y8GBe2PCctnJiJ7SVsS4/PRwYy/EZWGge0FA06s4JkG8iD5spF72RbyabAA=="
+                length="17104297"
+                type="application/octet-stream" />
+        </item>
+        <item>
+            <title>PowerCut 1.0.19</title>
+            <pubDate>Tue, 22 Sep 2026 12:00:59 -0400</pubDate>
+            <sparkle:version>75</sparkle:version>
+            <sparkle:shortVersionString>1.0.19</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Markers on struck words now also appear on the timeline in Final Cut Pro, DaVinci Resolve and Premiere Pro, at the nearest kept frame, instead of only inside the multicam or compound clip.</li>
+                    <li>The Zoom menu on the selection bar offers Remove Zoom when a zoom already covers the selected words.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.0.19/PowerCut.dmg"
+                sparkle:edSignature="zWmDpanwJEV/1UyfUn6GvULFQ2i9dJaoiGTnC5GYMM8/4L1jjdzLkmkbSfFozLsOgX7ZChav+NDdTzknyhQiDg=="
+                length="17103920"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PowerCut Beta 1.1b1 (75)</title>
             <pubDate>Mon, 21 Sep 2026 19:06:11 -0400</pubDate>
             <sparkle:channel>beta</sparkle:channel>
