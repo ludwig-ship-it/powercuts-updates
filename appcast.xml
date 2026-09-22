@@ -7,6 +7,47 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut Beta 1.1b1 (77)</title>
+            <pubDate>Tue, 22 Sep 2026 20:08:48 +0000</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>77</sparkle:version>
+            <sparkle:shortVersionString>1.1b1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>License checks now go through PowerCut's own license server instead of the app talking to the store directly. Your key is verified once, kept safely in your Keychain, and re-checked about every two weeks when you are online. If the server cannot be reached, everything keeps working. The manual's License section explains what is sent.</li>
+                    <li>One license, two Macs. Enter the same key on your desktop and your laptop; a third Mac is refused with the option to release both and use it there. Remove License from This Mac frees a seat.</li>
+                    <li>Renew a Year and Upgrade to Lifetime keys for a One Year license are now accepted in Manage License. A renewal bought on the web shows up there ready to apply.</li>
+                    <li>A One Year license on a version released after its window keeps everything working and shows, in the export bar, how to renew or install the version it covers.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.1b1-77/PowerCutBeta.dmg"
+                sparkle:edSignature="B3yadXlWfTlN8EUDx1goco9YEyenwrAD36/G7GfGHLYA2odttE98yzwsVPaJuHeQ/NXwI/03k1FF8apKBPiZCg=="
+                length="17167353"
+                type="application/octet-stream" />
+        </item>
+        <item>
+            <title>PowerCut 1.0.20</title>
+            <pubDate>Tue, 22 Sep 2026 20:16:04 +0000</pubDate>
+            <sparkle:version>76</sparkle:version>
+            <sparkle:shortVersionString>1.0.20</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>License checks now go through PowerCut's own license server instead of the app talking to the store directly. Your key is verified once, kept safely in your Keychain, and re-checked about every two weeks when you are online. If the server cannot be reached, everything keeps working. The manual's License section explains what is sent.</li>
+                    <li>One license, two Macs. Enter the same key on your desktop and your laptop; a third Mac is refused with the option to release both and use it there. Remove License from This Mac frees a seat.</li>
+                    <li>Renew a Year and Upgrade to Lifetime keys for a One Year license are now accepted in Manage License. A renewal bought on the web shows up there ready to apply.</li>
+                    <li>A One Year license on a version released after its window keeps everything working and shows, in the export bar, how to renew or install the version it covers.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.0.20/PowerCut.dmg"
+                sparkle:edSignature="eIFXpGsSGhxjeT9za1ke3lKKmeomueo32GRJfMvhJTYmCC2l4x1OAdvcHV1zjSHFpZRWk6FrTIaMoJPoqUSdBA=="
+                length="17167758"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PowerCut Beta 1.1b1 (76)</title>
             <pubDate>Tue, 22 Sep 2026 12:00:59 -0400</pubDate>
             <sparkle:channel>beta</sparkle:channel>
