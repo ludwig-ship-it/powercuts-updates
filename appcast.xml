@@ -7,6 +7,41 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut Beta 1.1b1 (78)</title>
+            <pubDate>Tue, 22 Sep 2026 20:44:45 +0000</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>78</sparkle:version>
+            <sparkle:shortVersionString>1.1b1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>A gear at the right of the title bar opens Settings, and closes it again when Settings is in front.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.1b1-78/PowerCutBeta.dmg"
+                sparkle:edSignature="VM4V0cGIOwpSBN7LJ2Nc3piXHQ3raLO66LRdyXDJGFHNeNHf2AEuvJqKG6kHRgrcMIu3lqiOremI3VZgrFQyAQ=="
+                length="17169627"
+                type="application/octet-stream" />
+        </item>
+        <item>
+            <title>PowerCut 1.0.21</title>
+            <pubDate>Tue, 22 Sep 2026 20:51:24 +0000</pubDate>
+            <sparkle:version>77</sparkle:version>
+            <sparkle:shortVersionString>1.0.21</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>A gear at the right of the title bar opens Settings, and closes it again when Settings is in front.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.0.21/PowerCut.dmg"
+                sparkle:edSignature="fAXN0JPhGsWHcb/43b5yKSLl0ugnYh/i9EpWFLkUZYElvO5ExFxSqnZlOohQk6LeIZPyHOjbWSNIt4fRn5dCDQ=="
+                length="17168678"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PowerCut Beta 1.1b1 (77)</title>
             <pubDate>Tue, 22 Sep 2026 20:08:48 +0000</pubDate>
             <sparkle:channel>beta</sparkle:channel>
