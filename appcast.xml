@@ -7,6 +7,45 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut Beta 1.1b1 (80)</title>
+            <pubDate>Wed, 23 Sep 2026 14:27:02 +0000</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>80</sparkle:version>
+            <sparkle:shortVersionString>1.1b1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Home is here for real: a house at the right of the title bar (⌘⇧H) shows every project as a list or a grid with a frame of its footage, with New Project and Open Project above. Back or Escape returns you to where you were. The new-project page keeps a Previous Projects section and a Back link. (1.0.22 announced this but shipped without it; sorry.)</li>
+                    <li>18 months of updates: a paid PowerCut license now includes every update released within 18 months of purchase, up from 12. Existing licenses get the longer window automatically. A renewal still adds a year, and Lifetime stays Lifetime.</li>
+                    <li>Beta builds: PowerCut Beta is a separate download that installs next to the release app and opens the same projects. Settings, Updates now has a Try the Beta button that takes you there.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.1b1-80/PowerCutBeta.dmg"
+                sparkle:edSignature="tMOnho6/i/rludOL8TC0wO7Pbsjf7OL1qGN1LuBBAV9081VNOwYTSzsetHRebCjcBSMPGwhlgOT1I6DzJ6fmDw=="
+                length="17224003"
+                type="application/octet-stream" />
+        </item>
+        <item>
+            <title>PowerCut 1.0.23</title>
+            <pubDate>Wed, 23 Sep 2026 14:36:20 +0000</pubDate>
+            <sparkle:version>79</sparkle:version>
+            <sparkle:shortVersionString>1.0.23</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Home is here for real: a house at the right of the title bar (⌘⇧H) shows every project as a list or a grid with a frame of its footage, with New Project and Open Project above. Back or Escape returns you to where you were. The new-project page keeps a Previous Projects section and a Back link. (1.0.22 announced this but shipped without it; sorry.)</li>
+                    <li>18 months of updates: a paid PowerCut license now includes every update released within 18 months of purchase, up from 12. Existing licenses get the longer window automatically. A renewal still adds a year, and Lifetime stays Lifetime.</li>
+                    <li>Beta builds: PowerCut Beta is a separate download that installs next to the release app and opens the same projects. Settings, Updates now has a Try the Beta button that takes you there.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.0.23/PowerCut.dmg"
+                sparkle:edSignature="2qfVF09eq3+8pmLynF9d2Sb9XW3omA7n/sfC2EwU0BB3Q4DSr2qODij8DQOFFc5Y6aTK1pMnkkRKcufq5FAjAA=="
+                length="17266662"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PowerCut Beta 1.1b1 (79)</title>
             <pubDate>Tue, 22 Sep 2026 23:31:51 +0000</pubDate>
             <sparkle:channel>beta</sparkle:channel>
