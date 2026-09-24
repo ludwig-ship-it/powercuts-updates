@@ -7,6 +7,27 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut Beta 1.1b1 (81)</title>
+            <pubDate>Thu, 24 Sep 2026 17:20:07 +0000</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>81</sparkle:version>
+            <sparkle:shortVersionString>1.1b1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Create Multicam: drop all your files at once, on the sheet or on a row, and each becomes an angle. The first camera file becomes the main clip when none is chosen yet; recorder files never do. Choose… accepts several files too.</li>
+                    <li>Create Multicam: put the angles in order. Drag the grip at the left of a row (the row lifts and the others slide aside), or use the up and down chevrons. The order is the angle order in Final Cut Pro and the track order in Resolve and Premiere.</li>
+                    <li>PowerCut Beta never writes a release project. Opening X.powercuts makes "X Beta.powercuts" next to it and works on the copy; the original is untouched. Open the Beta copy in PowerCut to carry a cut over. A notice explains it the first time.</li>
+                    <li>Home, 18 months of updates and Try the Beta from 1.0.23 are in this beta too.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.1b1-81/PowerCutBeta.dmg"
+                sparkle:edSignature="tIGce3yMOvZK0t/PNIPiy5qUN6yftJI7ezmE3GmP+nfyBI5K8R0o5FGvD7HgvaG3g6o8IM9YPKwTFVCjuaByBw=="
+                length="17255388"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PowerCut Beta 1.1b1 (80)</title>
             <pubDate>Wed, 23 Sep 2026 14:27:02 +0000</pubDate>
             <sparkle:channel>beta</sparkle:channel>
