@@ -7,6 +7,35 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut 1.0.25</title>
+            <pubDate>Mon, 28 Sep 2026 22:39:18 +0000</pubDate>
+            <sparkle:version>92</sparkle:version>
+            <sparkle:shortVersionString>1.0.25</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>A new look, calmer and easier to read: flat surfaces divided by hairlines, larger transcript text, teal only for what is selected or playing, and the long explanations moved behind (i) buttons. Every button has an outline so it reads as a button, and nothing is pill-shaped.</li>
+                    <li>The toolbar carries the project: its name is an editable field (click to rename) with the project menu right beside it, then History, Review with the number of close calls, and Export. Export opens one sheet with the NLE, the options, and the transcript and caption exports.</li>
+                    <li>The right column has three tabs under the player: Edit (the rules the Auto Edit Pass follows), Review (the close calls, with Play and Show on each) and Assistant (what your AI app read and changed).</li>
+                    <li>Home starts with a New Project tile, shows your projects as a list or a grid, and has the tour, the user guide and the keyboard shortcuts one click away. New Project is three clearly numbered steps.</li>
+                    <li>Clip cards show a frame of each clip. Hide the previews with the photo button in the Footage header or View, Hide Clip Previews; each card then shows its length next to its name.</li>
+                    <li>Takes: a short line said again word for word ("I'm sorry, but it does.") is now a retake, kept once, even when it has only a couple of content words; a leading "And", "But" or "So" does not make it a different line. For a project edited before this update, click Run Auto Edit Pass once to apply it.</li>
+                    <li>New cleanup level, Jump Cut, after Aggressive: every pause past the slider goes, mid-sentence too, down to 0.1 s, for talking heads cut tight. Short words between two cuts, like "a" or "I", are kept. The other four levels cut exactly as before.</li>
+                    <li>Create Multicam accepts the same files again after you remove a multicam clip; before, it said they were already in the project.</li>
+                    <li>No more stray short clips between takes. When a script correction joined two words ("AI generated" into "AI-generated"), striking that word left the audio of its second half playing, often as an empty row of its own. The joined part now goes with its word.</li>
+                    <li>Faster and lighter: opening a project from the Finder or the Dock no longer stacks hidden copies of the window, and script projects, the timeline with Switch camera by speaker, Looks Right (Y), assistant tools on long clips, frame stepping and hovering no longer redraw more than they need to. Temporary audio no longer piles up: PowerCut deletes it when you quit.</li>
+                    <li>French hesitations like "euh" and "hum" are now found and cut, like "um" in English. An "uh" the transcript spells "ah" is cut as a filler when PowerCut also heard a hesitation there, while a real "Ah, I see" stays. For a project transcribed before this build, click Listen Again for Fillers in the Cleanup section.</li>
+                    <li>Transcription keeps working after you have used many languages: macOS lets an app hold five speech languages at a time, and PowerCut now frees the one used least recently instead of failing.</li>
+                    <li>MXF import can no longer hang on a long file, and partial files left by an interrupted import are cleaned up.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.0.25/PowerCut.dmg"
+                sparkle:edSignature="0GEliMEdBQHvLI3nb/ijsQ5VXBGB0qnkPus7NLCLorkbqxxi98hlWJBBuMOEMhxqWPKT64ILm1oNW/Rx4gZUAA=="
+                length="17519286"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PowerCut Beta 1.1b1 (92)</title>
             <pubDate>Mon, 28 Sep 2026 22:12:21 +0000</pubDate>
             <sparkle:channel>beta</sparkle:channel>
