@@ -7,6 +7,24 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut Beta 1.1b1 (93)</title>
+            <pubDate>Wed, 30 Sep 2026 18:03:32 +0000</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>93</sparkle:version>
+            <sparkle:shortVersionString>1.1b1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Recordings with the voice on one side of a stereo file now transcribe. Some recorders put the voice on the right channel only and leave the left one silent; PowerCut listened to the silent side and found a word or two. It now hears the side that carries the voice, for the transcript, the filler pass and speaker detection. Files with sound on both sides are handled exactly as before. For a clip transcribed before this beta, choose Right only in the clip's Audio menu and it is transcribed again.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.1b1-93/PowerCutBeta.dmg"
+                sparkle:edSignature="IOvXQPLvLGsNcTT/BWYudRIkOMN1IYRIGd4vAD2ykdMNwPF7vkyIFodUEgpSiGdNvyxc70+1nqrWyd+SCgf5AA=="
+                length="17525640"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PowerCut 1.0.25</title>
             <pubDate>Mon, 28 Sep 2026 22:39:18 +0000</pubDate>
             <sparkle:version>92</sparkle:version>
