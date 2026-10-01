@@ -7,6 +7,25 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut Beta 1.1b1 (94)</title>
+            <pubDate>Thu, 01 Oct 2026 16:34:47 +0000</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>94</sparkle:version>
+            <sparkle:shortVersionString>1.1b1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>The sections in the right column and the clips in the Footage column are now separate cards, each with an outline and a gap before the next one, so they no longer run together. The selected clip has a teal outline; a clip whose file is missing has a red one.</li>
+                    <li>Transcription accuracy: in a narrow right column the three choices now show as a menu. Before, they did not fit and pushed the column's contents past the edge of the window.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.1b1-94/PowerCutBeta.dmg"
+                sparkle:edSignature="0vTxb2aKKvMBAQGGFTc7CcTgsa/bJlKKW5tOOwdbE6CjWis0FKqfU10W1Hst4dC6+1K7ja8O2n6xb5ntM4evCw=="
+                length="17526583"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PowerCut 1.0.26</title>
             <pubDate>Wed, 30 Sep 2026 18:20:12 +0000</pubDate>
             <sparkle:version>93</sparkle:version>
