@@ -7,6 +7,26 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut Beta 1.1b1 (95)</title>
+            <pubDate>Fri, 02 Oct 2026 13:56:58 +0000</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>95</sparkle:version>
+            <sparkle:shortVersionString>1.1b1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Ready for PowerCue takes that record the screen's sound on separate tracks (a copy of the microphone, Computer Audio and Mouse Clicks). The screen's copy of the microphone is never heard, transcribed or used for sync, so the voice is never doubled. Computer Audio and Mouse Clicks play together when the screen is heard.</li>
+                    <li>Exports of those takes keep each track's role for Final Cut Pro. For DaVinci Resolve and Premiere Pro, the message after the export says which tracks to set by hand.</li>
+                    <li>Relinking such a clip to a file with a different track layout drops the roles and says so. Keep the take's folder together: the roles are read from the take.json beside the XML. Takes with one screen sound track, older takes and footage from other apps behave as before.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.1b1-95/PowerCutBeta.dmg"
+                sparkle:edSignature="QAe+GSCVK/xynm0w0QaI0ertEozGO4qlZOKaNmTLt08/Ze6dTxXp4Z3f2xML24fgOVZZCYZ5NWEZ215Zo/ndDA=="
+                length="17596699"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PowerCut 1.0.27</title>
             <pubDate>Thu, 01 Oct 2026 16:44:57 +0000</pubDate>
             <sparkle:version>94</sparkle:version>
