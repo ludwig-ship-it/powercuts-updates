@@ -7,6 +7,27 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut 1.0.28</title>
+            <pubDate>Wed, 07 Oct 2026 16:00:40 +0000</pubDate>
+            <sparkle:version>97</sparkle:version>
+            <sparkle:shortVersionString>1.0.28</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Send to PowerCut: PowerCue can hand a finished take straight to PowerCut. If PowerCut is open, the take is imported there; if not, PowerCut opens and imports it.</li>
+                    <li>Greek, Hindi and the other languages that run on the Whisper model now say what they are doing: downloading the speech model, loading it, preparing it for this Mac (a few minutes on a first use), then transcribing, with a percentage on longer clips. Before, the clip stayed at "transcribing 0%" the whole time.</li>
+                    <li>Language detection no longer waits on that preparation.</li>
+                    <li>Short clips are no longer cut down by the aside rule and the fragment rule: a short sentence in a clip under about a minute stays in.</li>
+                    <li>With an assistant connected (Claude Desktop, Cursor, Codex), PowerCut no longer opens by itself. It opens when the assistant actually uses it.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.0.28/PowerCut.dmg"
+                sparkle:edSignature="p7gcX0xJ7YhD+M9a2YL4Q8NDBlCSoIDjYiRXejfXHzEpil72nKlBgkVv0i+ZJD0KhkyrczvdM/EsDXY0SavEAA=="
+                length="17382914"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PowerCut Beta 1.1b1 (97)</title>
             <pubDate>Wed, 07 Oct 2026 15:41:18 +0000</pubDate>
             <sparkle:channel>beta</sparkle:channel>
