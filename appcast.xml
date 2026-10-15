@@ -7,6 +7,26 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut Beta 1.1b1 (98)</title>
+            <pubDate>Thu, 15 Oct 2026 20:46:07 +0000</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>98</sparkle:version>
+            <sparkle:shortVersionString>1.1b1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Send to Final Cut Pro: with Final Cut Pro as the export target, Send hands the timeline straight to Final Cut, which imports it into the open library. No file to save, nothing to import. Also in the File menu (Command-Shift-E).</li>
+                    <li>Send to Resolve: with DaVinci Resolve as the target, Send leaves the timeline waiting and adds Import from PowerCut to Resolve's Workspace, Scripts menu; choosing it brings the timeline into the open project. The first time, quit and reopen Resolve once so it lists the script.</li>
+                    <li>Export XML stays next to both, for a file you keep or import yourself.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.1b1-98/PowerCutBeta.dmg"
+                sparkle:edSignature="bN/02pUw0DAri5y1xbCWM/dWXZMyQFI3s3fsvuTSyCIUqD+wq0Uznytha2t0ofkl/ywB0n3C3SgpkKA1fc0eAA=="
+                length="17412579"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PowerCut 1.0.28</title>
             <pubDate>Wed, 07 Oct 2026 16:00:40 +0000</pubDate>
             <sparkle:version>97</sparkle:version>
