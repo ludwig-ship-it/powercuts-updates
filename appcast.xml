@@ -7,6 +7,57 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut 1.0.29</title>
+            <pubDate>Sat, 17 Oct 2026 00:45:28 +0000</pubDate>
+            <sparkle:version>99</sparkle:version>
+            <sparkle:shortVersionString>1.0.29</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Send to Final Cut Pro: with Final Cut Pro as the export target, Send hands the timeline straight to Final Cut, which imports it into the open library. Also in the File menu (Command-Shift-E).</li>
+                    <li>Send to Resolve: with DaVinci Resolve as the target, Send leaves the timeline waiting and adds Import from PowerCut to Resolve's Workspace, Scripts menu; choosing it brings the timeline into the open project. The first time, quit and reopen Resolve once so it lists the script.</li>
+                    <li>Trimming is easier: an edge can be grabbed from either side of it, on any clip 6 points wide or more, and a click no longer trims by accident.</li>
+                    <li>Edges snap to the start and end of words and to cut boundaries. N turns snapping off; it is also the Snap switch in the timeline header.</li>
+                    <li>Zoomed in, the words show along the clips (struck words dimmed), and the waveform is drawn against the clip's own room noise, so speech stands out from pauses.</li>
+                    <li>Click an edge to select it: comma and period move it one frame (shift: ten frames), and slash plays the two seconds around it.</li>
+                    <li>Through cuts (the dashed joints where nothing is missing): click one and press Delete to remove it, or choose Timeline, Remove All Through Cuts. Joints whose removal would change what plays stay.</li>
+                    <li>Clip Height (Small, Medium, Large) is in the Timeline menu.</li>
+                    <li>Screen recordings with a variable frame rate trim on a 60 fps grid. They used to move in quarter seconds, so a short trim snapped back.</li>
+                    <li>Faster edits in projects with speakers.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.0.29/PowerCut.dmg"
+                sparkle:edSignature="hs/Lc2CzeVpGDKzd/psGFEKxiE3+oUhn+0byL2BBvHxyoTREvhNHzxXFmACW+hVH2m5a3ECIT5ZAh9oYTjSjDw=="
+                length="17449464"
+                type="application/octet-stream" />
+        </item>
+        <item>
+            <title>PowerCut Beta 1.1b1 (99)</title>
+            <pubDate>Sat, 17 Oct 2026 00:39:46 +0000</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>99</sparkle:version>
+            <sparkle:shortVersionString>1.1b1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Trimming is easier: an edge can be grabbed from either side of it, on any clip 6 points wide or more, and a click no longer trims by accident.</li>
+                    <li>Edges snap to the start and end of words and to cut boundaries. N turns snapping off; it is also the Snap switch in the timeline header.</li>
+                    <li>Zoomed in, the words show along the clips (struck words dimmed), and the waveform is drawn against the clip's own room noise, so speech stands out from pauses.</li>
+                    <li>Click an edge to select it: comma and period move it one frame (shift: ten frames), and slash plays the two seconds around it.</li>
+                    <li>Through cuts (the dashed joints where nothing is missing): click one and press Delete to remove it, or choose Timeline, Remove All Through Cuts. Joints whose removal would change what plays stay.</li>
+                    <li>Clip Height (Small, Medium, Large) is in the Timeline menu.</li>
+                    <li>Screen recordings with a variable frame rate trim on a 60 fps grid. They used to move in quarter seconds, so a short trim snapped back.</li>
+                    <li>Faster edits in projects with speakers.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.1b1-99/PowerCutBeta.dmg"
+                sparkle:edSignature="CSYJTsjdNjzFWf8FblopmaNUbmkhU3DthuLvvK1pyG/HRRsX5we9dMFSD1mokccXlNIL7JF7L2s68wSiwi+RCA=="
+                length="17452999"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PowerCut Beta 1.1b1 (98)</title>
             <pubDate>Thu, 15 Oct 2026 20:46:07 +0000</pubDate>
             <sparkle:channel>beta</sparkle:channel>
