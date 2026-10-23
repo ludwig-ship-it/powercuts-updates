@@ -7,6 +7,31 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut Beta 1.1b1 (104)</title>
+            <pubDate>Fri, 23 Oct 2026 14:32:54 +0000</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>104</sparkle:version>
+            <sparkle:shortVersionString>1.1b1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Blade, Trim Start and Trim End, as Final Cut has them: in the Timeline menu (Command-B, Option-[, Option-]) and as buttons on the timeline's toolbar. They cut the clip under the playhead; Undo or a right-click on the timeline brings it back.</li>
+                    <li>View, beside Rough and Full on the timeline: show or hide the words and the waveforms on the clips, set the clip height, and switch Hide Strikes, Skip Strikes, Follow, Skimming and Snapping, each with a key (Control-Command-T for the words, Control-Command-W for the waveforms).</li>
+                    <li>Always use the last take (Cleanup, under Detect repeated takes): every repeated line keeps its last full take, even when it stumbles; the restarts, stutters and filler words in it are cut.</li>
+                    <li>A take you choose with its TAKE badge keeps its cleanup: its stumbles and fillers stay cut.</li>
+                    <li>Keyboard shortcuts you can change: Help, Keyboard Shortcuts, or Settings, Keyboard. Click a shortcut and press the new keys.</li>
+                    <li>Trial codes: paste a trial code where the license key goes to extend your trial.</li>
+                    <li>Exports of screen recordings with a variable frame rate keep the rate of their fastest frames (60 fps), not their average.</li>
+                    <li>Fixes a crash on macOS 26.6.2 when a menu changed while it was open.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.1b1-104/PowerCutBeta.dmg"
+                sparkle:edSignature="v5UH2bpueWe6WBwm5+XNsy8xPUdEDQifHZ3yEKLmQTHx7WrVO8gv6t9YGwJ7jV3Y3Ebmfn6wbD60c67K835BAg=="
+                length="17616221"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PowerCut 1.0.29</title>
             <pubDate>Sat, 17 Oct 2026 00:45:28 +0000</pubDate>
             <sparkle:version>99</sparkle:version>
