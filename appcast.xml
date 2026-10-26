@@ -27,6 +27,27 @@
                 length="17630115"
                 type="application/octet-stream" />
         </item>
+        <!-- Below the beta of the same build on purpose: until the beta app's own picker runs, Sparkle takes the first of two equal builds (2026-10-26). -->
+        <item>
+            <title>PowerCut 1.0.31</title>
+            <pubDate>Mon, 26 Oct 2026 16:27:04 +0000</pubDate>
+            <sparkle:version>105</sparkle:version>
+            <sparkle:shortVersionString>1.0.31</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Keyboard shortcuts as Final Cut Pro has them: any key works for any command, a key alone too (] for Blade, = for Zoom In).</li>
+                    <li>More than one shortcut per command: in Help, Keyboard Shortcuts, click + after a command's keys and press another.</li>
+                    <li>Zoom In, Zoom Out and Actual Size can take other keys too. They zoom the timeline, or the Document page when it is showing.</li>
+                    <li>While you type in a text field, the keys type there; only shortcuts with Command reach their commands.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.0.31/PowerCut.dmg"
+                sparkle:edSignature="vzOL/EC4bJK0K4Jk2PGkZcPsgIkLhIo3ilFwclT4msdtnWxk3cYSbiwb49giaZLF05HM+6rr5kPSHU1IxkaMBQ=="
+                length="17616938"
+                type="application/octet-stream" />
+        </item>
         <item>
             <title>PowerCut 1.0.30</title>
             <pubDate>Fri, 23 Oct 2026 16:32:53 +0000</pubDate>
