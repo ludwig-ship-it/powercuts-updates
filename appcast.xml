@@ -7,6 +7,28 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut Beta 1.1b1 (108)</title>
+            <pubDate>Wed, 28 Oct 2026 02:41:27 +0000</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>108</sparkle:version>
+            <sparkle:shortVersionString>1.1b1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>With Skimming on, the playhead stays where you clicked while the picture follows the pointer over the timeline. Move the pointer off the timeline and the picture shows the playhead's frame again.</li>
+                    <li>Play while the pointer is over the timeline starts there, and the playhead goes with it. Blade, Trim Start and Trim End still act at the pointer; the playhead stays on its frame unless the trim cuts it.</li>
+                    <li>Play right after clicking a word starts on that word, in long 4K clips too.</li>
+                    <li>A punch-in on the player follows the picture while you skim.</li>
+                    <li>The installer window's arrow points from PowerCut to Applications again, and the window is sharp on Retina screens.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.1b1-108/PowerCutBeta.dmg"
+                sparkle:edSignature="92hthD2s034w+y02bBVnnQki/g71F5i5NxwWvO7dtW2H9qCVWiOH1x2i7g0cv0NPT/IPqndFJWlycrLPHyQ0BA=="
+                length="17668988"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PowerCut Beta 1.1b1 (107)</title>
             <pubDate>Tue, 27 Oct 2026 22:19:07 +0000</pubDate>
             <sparkle:channel>beta</sparkle:channel>
