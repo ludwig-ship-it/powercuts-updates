@@ -7,6 +7,28 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut Beta 1.1b1 (107)</title>
+            <pubDate>Tue, 27 Oct 2026 22:19:07 +0000</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>107</sparkle:version>
+            <sparkle:shortVersionString>1.1b1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Blade, Trim Start and Trim End work at the pointer, as in Final Cut Pro: with Skimming on (Control-Command-K) and playback paused, they act where the pointer is over the timeline. Otherwise they act at the playhead, as before.</li>
+                    <li>Audio Skimming (Control-Command-A) is its own switch, in the timeline's View menu and the Timeline menu. Skimming alone moves the picture with the pointer, silently; Audio Skimming adds the sound.</li>
+                    <li>The Document tab: Blade, Trim Start and Trim End work there too, on the timeline under the page. Zoom In and Zoom Out zoom the timeline after you click it, the page otherwise.</li>
+                    <li>The ruler above the clips is taller, and a click above or below the clips moves the playhead without selecting a clip.</li>
+                    <li>One Year licenses: when an update your license does not cover is out, Check for Updates shows Renew to Update again instead of "You're up to date".</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.1b1-107/PowerCutBeta.dmg"
+                sparkle:edSignature="fIuHgo9Hq9sgbaIpu0/fWoF9M+EOeYnuMURyfSMGtTQk/6L6ciwjq0gb+X14ItQ1eMdYlNoBJp5kykHfX6pWDQ=="
+                length="17639935"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PowerCut Beta 1.1b1 (106)</title>
             <pubDate>Mon, 26 Oct 2026 22:21:01 +0000</pubDate>
             <sparkle:channel>beta</sparkle:channel>
