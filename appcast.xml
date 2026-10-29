@@ -25,6 +25,31 @@
                 length="17670188"
                 type="application/octet-stream" />
         </item>
+        <!-- Below the beta of the same build on purpose: until the beta app's own picker runs, Sparkle takes the first of two equal builds (2026-10-26). -->
+        <item>
+            <title>PowerCut 1.0.32</title>
+            <pubDate>Thu, 29 Oct 2026 21:54:02 +0000</pubDate>
+            <sparkle:version>109</sparkle:version>
+            <sparkle:shortVersionString>1.0.32</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Blade, Trim Start and Trim End work at the pointer, as in Final Cut Pro: with Skimming on (Control-Command-K) and playback paused, they act where the pointer is over the timeline. Otherwise they act at the playhead, as before.</li>
+                    <li>While you skim, the playhead stays where you clicked and the picture follows the pointer. Play over the timeline starts at the pointer.</li>
+                    <li>Audio Skimming (Control-Command-A) is its own switch, in the timeline's View menu and the Timeline menu. Skimming alone moves the picture silently; Audio Skimming adds the sound.</li>
+                    <li>The Document tab: Blade, Trim Start and Trim End work there too, on the timeline under the page. Zoom In and Zoom Out zoom the timeline after you click it, the page otherwise.</li>
+                    <li>The ruler above the clips is taller, and a click above or below the clips moves the playhead without selecting a clip.</li>
+                    <li>Play right after clicking a word starts on that word, and a click right after two quick edits lands where you clicked.</li>
+                    <li>One Year licenses: Check for Updates offers the newest update your license covers, and shows Renew to Update when a newer one is out.</li>
+                    <li>The installer window's arrow points from PowerCut to Applications, and the window is sharp on Retina screens.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.0.32/PowerCut.dmg"
+                sparkle:edSignature="wPmQmX/PaTnL+Ykrkmx6RpNAaacBtIaMGXAokuush39OaP/QVNrWWGfWa7RVd5FIrw0OMGyD82tj3WLWPK2JDg=="
+                length="17657307"
+                type="application/octet-stream" />
+        </item>
         <item>
             <title>PowerCut Beta 1.1b1 (108)</title>
             <pubDate>Wed, 28 Oct 2026 02:41:27 +0000</pubDate>
