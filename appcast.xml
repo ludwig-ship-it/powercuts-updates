@@ -7,6 +7,25 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut Beta 1.1b1 (109)</title>
+            <pubDate>Thu, 29 Oct 2026 21:46:02 +0000</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>109</sparkle:version>
+            <sparkle:shortVersionString>1.1b1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>A click on the timeline right after two quick edits lands where you clicked. It could stay a little off, just after the old cut, when the player caught up with the first edit before the second.</li>
+                    <li>An edit while playing that leaves the playhead at the very end now stops there, instead of starting playback over from the top.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.1b1-109/PowerCutBeta.dmg"
+                sparkle:edSignature="DveeW3/80t8OuqGZZ4a9QNiHFDhNINQ4G8c4riano6dyvfOEW+DmWBAw8/SfBWPVSblGQi822/9G+A/3QpL4DQ=="
+                length="17670188"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PowerCut Beta 1.1b1 (108)</title>
             <pubDate>Wed, 28 Oct 2026 02:41:27 +0000</pubDate>
             <sparkle:channel>beta</sparkle:channel>
