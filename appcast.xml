@@ -7,6 +7,26 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut Beta 1.1b1 (110)</title>
+            <pubDate>Sat, 31 Oct 2026 17:05:30 +0000</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>110</sparkle:version>
+            <sparkle:shortVersionString>1.1b1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>PowerCut Beta's trial is now 14 days.</li>
+                    <li>Tried the beta before? Your trial starts over: 14 days from the first time you open this version. Later updates keep counting from that day, they don't start it again.</li>
+                    <li>With a license nothing changes. PowerCut (the release) keeps its 7-day trial.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.1b1-110/PowerCutBeta.dmg"
+                sparkle:edSignature="XsrdDeJjWmnVCxxtL92ZtYpUcm8CZ9TkZQriAkyoLEBUyIuMP+nRJF63hi4zM/jJzHpSelJRNtERwm5UDkO/CA=="
+                length="17679008"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PowerCut Beta 1.1b1 (109)</title>
             <pubDate>Thu, 29 Oct 2026 21:46:02 +0000</pubDate>
             <sparkle:channel>beta</sparkle:channel>
