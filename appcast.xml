@@ -7,6 +7,30 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut Beta 1.1b1 (112)</title>
+            <pubDate>Mon, 02 Nov 2026 19:25:16 +0000</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>112</sparkle:version>
+            <sparkle:shortVersionString>1.1b1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Scripted reads: when you pick up the end of a long sentence again, the start of your first read now stays in the edit. Before, the whole first read could be cut, even the part you never said twice.</li>
+                    <li>Script matching: a name you corrected in the transcript, like "Final Cut", now matches your script, so the line is no longer cut as off-script.</li>
+                    <li>Pauses inside a sentence: a short pause after a comma now stays at Natural and the relaxed levels, even when the transcript stretched a word over it. Jump Cut still takes it.</li>
+                    <li>New language: Russian · GigaAM. It transcribes Russian with Sber's GigaAM-v3 model instead of Whisper, filler-word pass included. Pick it from the language menu, right under Russian.</li>
+                    <li>The first time you use it, PowerCut downloads the model once (about 390 MB). After that it runs on your Mac, with no internet needed.</li>
+                    <li>Plain Russian still uses Whisper. Projects set to Russian · GigaAM open as plain Russian in older versions of PowerCut.</li>
+                    <li>Fixed: reopening a project could file a transcript under the previous project's language.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.1b1-112/PowerCutBeta.dmg"
+                sparkle:edSignature="IiwwM1TsOHDedvOk8uyNx2x2BMUL2AvUfrxDfr3Vw43S2/UFbdQOzzSZwUIz0EyeAojLVzd7hfjelcIK0pgfDQ=="
+                length="17718889"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PowerCut Beta 1.1b1 (110)</title>
             <pubDate>Sat, 31 Oct 2026 17:05:30 +0000</pubDate>
             <sparkle:channel>beta</sparkle:channel>
