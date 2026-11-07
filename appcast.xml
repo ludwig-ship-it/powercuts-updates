@@ -26,6 +26,28 @@
                 length="17725882"
                 type="application/octet-stream" />
         </item>
+        <!-- Below the beta of the same build on purpose: until the beta app's own picker runs, Sparkle takes the first of two equal builds (2026-10-26). -->
+        <item>
+            <title>PowerCut 1.0.34</title>
+            <pubDate>Sat, 07 Nov 2026 14:15:47 +0000</pubDate>
+            <sparkle:version>113</sparkle:version>
+            <sparkle:shortVersionString>1.0.34</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Russian · GigaAM (beta) now shows in the language menu, right under Russian. 1.0.33 announced it, but only PowerCut Beta listed it. It transcribes Russian with Sber's GigaAM-v3 model instead of Whisper, filler-word pass included.</li>
+                    <li>The first time you use it, PowerCut downloads the model once (about 390 MB). After that it runs on your Mac, with no internet needed. Plain Russian still uses Whisper.</li>
+                    <li>MXF angles: an MXF file, like a Sony FX6 clip, now works as a second angle in Create Multicam and the Angles panel. Before, only the clip marked Main could be read.</li>
+                    <li>MXF angles sync by audio, play, and feed the dialogue like any other file. Final Cut Pro and Resolve exports still point to your original MXF files.</li>
+                    <li>If an MXF can't be repackaged (a full disk, for example), the angle keeps what PowerCut already knew about it and its row says why.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.0.34/PowerCut.dmg"
+                sparkle:edSignature="kgOSxlnFKO1qwae/s5ImCP6kMAVEPLJV5bT79wc0PAVaY7VzuO+QQEoQen3B07s11y49N63m1ZYk+Q9NoMRHAQ=="
+                length="17722007"
+                type="application/octet-stream" />
+        </item>
         <item>
             <title>PowerCut Beta 1.1b1 (112)</title>
             <pubDate>Mon, 02 Nov 2026 19:25:16 +0000</pubDate>
