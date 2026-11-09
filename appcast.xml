@@ -7,6 +7,25 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut Beta 1.1b1 (114)</title>
+            <pubDate>Mon, 09 Nov 2026 23:42:28 +0000</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>114</sparkle:version>
+            <sparkle:shortVersionString>1.1b1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>New: Help &gt; Go Back to the Previous Beta. If something is off in this beta, PowerCut names the beta before it and opens its installer in your browser. Drag it to Applications to replace this one, and choose Skip This Version when the newer beta is offered again.</li>
+                    <li>The beta page lists the previous beta of every app too: rafaelludwig.com/apps/beta/</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.1b1-114/PowerCutBeta.dmg"
+                sparkle:edSignature="E/yewfu3LTs5y4UpU54TQa/YrJQsfPFjyVm3DvbjoNk56opKt4B0d/jSciTklI4CSdRUcw5NLzgrzqQ4HQrnCw=="
+                length="17737031"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PowerCut Beta 1.1b1 (113)</title>
             <pubDate>Tue, 03 Nov 2026 20:17:13 +0000</pubDate>
             <sparkle:channel>beta</sparkle:channel>
