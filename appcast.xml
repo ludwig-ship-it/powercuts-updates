@@ -7,6 +7,31 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut Beta 1.1b1 (116)</title>
+            <pubDate>Fri, 20 Nov 2026 23:00:57 +0000</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>116</sparkle:version>
+            <sparkle:shortVersionString>1.1b1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Captions after a text correction: a correction typed with fewer words than it replaces no longer starts its caption late (Final Cut captions, SRT and WebVTT), and a script correction that folds a word into the one before keeps the caption's end.</li>
+                    <li>Strike edges (English clips): after you strike a phrase in running speech, the word before it stays whole and less of the struck words is left behind. PowerCut now works out where each word begins to sound and places the cut by that. The first time you transcribe an English clip, a small model (80 MB) downloads in the background; until it is there, strikes cut as before. Other languages are unchanged for now.</li>
+                    <li>Take score: every read of a repeated take gets a score from 1 to 100 on its badge, the pick highest. The review queue lists a take pick only when it is a close call (within 5 points) or stitched.</li>
+                    <li>Cut edges: a short kept word after a struck run ("I", "And", "Yes.") plays, a kept sentence keeps its opening words, and a sign-off like "Thanks for watching." stays.</li>
+                    <li>Script: when the recording follows the script only loosely, the script no longer edits the clip. The takes are picked the usual way and the Script panel says so.</li>
+                    <li>Timeline and player: an edit while paused shows in the player at once, dragging and scrubbing with the whole timeline in view are smoother, and playback no longer stutters.</li>
+                    <li>Hold Option or Escape while opening PowerCut Beta to start with a new, empty project.</li>
+                    <li>Something off? Help &gt; Go Back to the Previous Beta, or rafaelludwig.com/apps/beta/</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.1b1-116/PowerCutBeta.dmg"
+                sparkle:edSignature="rnWPXRJ3+yFl4IWMZveOHS7ictQxjzvKusxu5RxhdHfp0xyZwirfrWWpa1508FPTG2o1pkWouPNKGk+uV5wPBg=="
+                length="17841081"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PowerCut Beta 1.1b1 (115)</title>
             <pubDate>Thu, 19 Nov 2026 13:01:24 +0000</pubDate>
             <sparkle:channel>beta</sparkle:channel>
