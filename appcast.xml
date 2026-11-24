@@ -7,6 +7,30 @@
         <language>en</language>
         <!-- Add one <item> per release, newest first. Template in SETUP.md. -->
         <item>
+            <title>PowerCut Beta 1.1b1 (117)</title>
+            <pubDate>Tue, 24 Nov 2026 00:27:23 +0000</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>117</sparkle:version>
+            <sparkle:shortVersionString>1.1b1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Mute filler words only (Cleanup, under Remove filler words; off by default): a filler keeps its picture and only its sound goes, so a single camera does not jump at every "um". In the player and in the Final Cut and Resolve export.</li>
+                    <li>Takes: "because the first ..." is no longer read as the spoken direction "use the first". Two sentences meant as a pair ("... pricing. ... the timeline too.") are both kept.</li>
+                    <li>Auto Edit Pass run again leaves your own strikes and restores alone.</li>
+                    <li>Timeline: after a blade the playhead line stays and a second blade works at once. The toolbar no longer flickers while the window is dragged wider.</li>
+                    <li>Multicam: two Sony cameras synced by Sony timecode land in sync in Final Cut; an angle with no sync goes in with its sound off and a note.</li>
+                    <li>Assistant (MCP): the connection survives PowerCut quitting, and undo takes back the exact action.</li>
+                    <li>Something off? Help &gt; Go Back to the Previous Beta, or rafaelludwig.com/apps/beta/</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.1b1-117/PowerCutBeta.dmg"
+                sparkle:edSignature="Y4XmfReZB157eGuMQSQexQTUv5m29MZXloEoh7MxT+mK7gRK9x/LaFtyN+PgZNkriNVQ3oCMDASzcW5VkWrLDg=="
+                length="17854773"
+                type="application/octet-stream" />
+        </item>
+        <item>
             <title>PowerCut Beta 1.1b1 (116)</title>
             <pubDate>Fri, 20 Nov 2026 23:00:57 +0000</pubDate>
             <sparkle:channel>beta</sparkle:channel>
