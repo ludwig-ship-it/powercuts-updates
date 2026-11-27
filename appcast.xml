@@ -26,8 +26,33 @@
             ]]></description>
             <enclosure
                 url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.1b1-117/PowerCutBeta.dmg"
-                sparkle:edSignature="Y4XmfReZB157eGuMQSQexQTUv5m29MZXloEoh7MxT+mK7gRK9x/LaFtyN+PgZNkriNVQ3oCMDASzcW5VkWrLDg=="
+                sparkle:edSignature="b0ngglggi6FthyO8Z29yQgV95moYpMs/cz3pQrWLDljEORAuFsxcYMsgFffmoWq8O4fR0vmII3nGis4iuzToCw=="
                 length="17854773"
+                type="application/octet-stream" />
+        </item>
+        <!-- 1.0.35 is build 117, the same build as Beta 117 above: on a build tie the beta item stays on top. -->
+        <item>
+            <title>PowerCut 1.0.35</title>
+            <pubDate>Fri, 27 Nov 2026 00:11:51 +0000</pubDate>
+            <sparkle:version>117</sparkle:version>
+            <sparkle:shortVersionString>1.0.35</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Mute filler words only (Cleanup, under Remove filler words; off by default): a filler keeps its picture and only its sound goes, so a single camera does not jump at every "um". In the player and in the Final Cut and Resolve export.</li>
+                    <li>Take score: every read of a repeated take gets a score from 1 to 100 on its badge. The review queue lists a take pick only when it is a close call or stitched.</li>
+                    <li>Takes and cut edges: "because the first ..." is no longer read as a spoken direction, a short kept word after a struck run plays, and a sign-off like "Thanks for watching." stays.</li>
+                    <li>Auto Edit Pass run again leaves your own strikes and restores alone.</li>
+                    <li>Captions after a text correction start and end where they should (Final Cut captions, SRT and WebVTT).</li>
+                    <li>Timeline and player: an edit while paused shows at once, scrubbing is smoother, playback no longer stutters, and the toolbar no longer flickers while the window is dragged wider.</li>
+                    <li>Multicam: two Sony cameras synced by Sony timecode land in sync in Final Cut.</li>
+                    <li>Assistant (MCP): the connection survives PowerCut quitting, and undo takes back the exact action.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.0.35/PowerCut.dmg"
+                sparkle:edSignature="TlRLuiCG02D+wDvoKgZbZEqo3OwDbklmD9iKA3+GqiJeY/ikMEWi5IFbVym0g98DpsR2Fbhri1eoOJjO5/AIBg=="
+                length="17851069"
                 type="application/octet-stream" />
         </item>
         <item>
@@ -51,7 +76,7 @@
             ]]></description>
             <enclosure
                 url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.1b1-116/PowerCutBeta.dmg"
-                sparkle:edSignature="rnWPXRJ3+yFl4IWMZveOHS7ictQxjzvKusxu5RxhdHfp0xyZwirfrWWpa1508FPTG2o1pkWouPNKGk+uV5wPBg=="
+                sparkle:edSignature="/vWkTHYXa4yvBvEs2Ktnjh04sDc81fRjzMPnz3HXZxICY21v/hk7Hlp7f4ALNe+NPVxK7V/SOWxLE2GDKh1EDw=="
                 length="17841081"
                 type="application/octet-stream" />
         </item>
@@ -75,7 +100,7 @@
             ]]></description>
             <enclosure
                 url="https://github.com/ludwig-ship-it/powercuts-updates/releases/download/v1.1b1-115/PowerCutBeta.dmg"
-                sparkle:edSignature="qEy6kaHF6zwrudgAHMxrdpQ/ahDWyaIotHCxaeZnDJGkffjP/Ziju3CNhYD1/oPp551joodK+3dOIxyHh8tTBQ=="
+                sparkle:edSignature="NpUXf8zAoeAStj7vkWYlEE4WqeGiRHDRHXjH/1y71GbWHqpsghut1zdERl8tCq8n5S0tdbGvujWcLaFxFwsOBQ=="
                 length="17841068"
                 type="application/octet-stream" />
         </item>
